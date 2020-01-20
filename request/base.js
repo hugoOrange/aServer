@@ -1,6 +1,7 @@
 const ADMIN_USER = 'admin';
 const ADMIN_PASSWORD = 'admin';
-const TOKEN_TIMEOUT = 1 * 24 * 60 * 60 * 60; // 1 day
+const { TOKEN_TIMEOUT } = require("../config.json");
+
 
 var _ = require('lodash');
 var { RequestTemplate } = require('./template');
@@ -70,10 +71,10 @@ module.exports = function (app) {
     mock.forEach(function (m) {
         app[m.m](m.url, function (req, res) {
             var recvToken = req.get('token');
-            var reqData = req.body && req.body.data || {};
+            var reqData = req.body && req.body || {};
             if (isTokenValid(recvToken)) {
                 if (diff(reqData, m.req)) {
-                    res.send(new RequestTemplate(m.res));
+                    res.send(m.res);
                 } else {
                     res.send(new RequestTemplate({}, 5000, '参数错误'));
                 }

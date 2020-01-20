@@ -1,0 +1,4 @@
+{
+    "TOKEN_TIMEOUT": 86400,
+    "TOKEN_RULE": "YYYY/MM/DD hh:mm:ss"
+}
