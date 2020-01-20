@@ -52,6 +52,9 @@ module.exports = function (app) {
             res.send(new RequestTemplate({}, 5000, '输入的帐号或密码错误'));
         }
     });
+    app.post('/service/user/base', function (req, res) {
+        
+    });
 
     // Test
     app.post('/service/center/rank', function (req, res) {

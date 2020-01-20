@@ -3,6 +3,7 @@
  */
 const MOCK_PATH = [
     './module/common/region.json',
+    'mock/module/common/dictionary.json',
     './module/case_center/mock.json'
 ];
 
