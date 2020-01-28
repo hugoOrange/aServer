@@ -1,11 +1,12 @@
 const ADMIN_USER = 'admin';
 const ADMIN_PASSWORD = 'admin';
 const { TOKEN_TIMEOUT } = require("../config.json");
+const userInfoData = require("./user.json");
 
 
 var _ = require('lodash');
 var { RequestTemplate } = require('./template');
-var { getToken, isTokenValid } = require('./token');
+var { getToken, isTokenValid, getUserByToken } = require('./token');
 var mock = require('../mock/index.js')();
 
 function validUser (usr, pass) {
@@ -52,8 +53,18 @@ module.exports = function (app) {
             res.send(new RequestTemplate({}, 5000, '输入的帐号或密码错误'));
         }
     });
-    app.post('/service/user/base', function (req, res) {
-        
+    app.get('/service/user/base', function (req, res) {
+        var recvToken = req.get('token');
+        if (isTokenValid(recvToken)) {
+            var userInfo = getUserByToken(recvToken);
+            if (!_.isUndefined(userInfo)) {
+                res.send(new RequestTemplate(userInfoData));
+            } else {
+                res.send(new RequestTemplate({}, 5000, '找不到登录用户'));
+            }
+        } else {
+            res.status(401).send(new RequestTemplate({}, 4000, '登录过期'));
+        }
     });
 
     // Test

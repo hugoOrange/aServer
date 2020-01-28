@@ -27,5 +27,9 @@ module.exports = {
             return expireTime > nowTime;
         }
         return false;
+    },
+
+    getUserByToken: function (token) {
+        return tokenCache[token];
     }
 };
