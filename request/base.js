@@ -2,6 +2,7 @@ const ADMIN_USER = 'admin';
 const ADMIN_PASSWORD = 'admin';
 const { TOKEN_TIMEOUT } = require("../config.json");
 const userInfoData = require("./user.json");
+const dictionaryData = require("../mock/module/dictionary/base.json");
 
 
 var _ = require('lodash');
@@ -77,6 +78,42 @@ module.exports = function (app) {
                     districtNum: 53
                 }
             }));
+        } else {
+            res.status(401).send(new RequestTemplate({}, 4000, '登录过期'));
+        }
+    });
+
+    app.post('/service/province/config/dic/list', function (req, res) {
+        var recvToken = req.get('token');
+        var reqData = req.body && req.body || {};
+        if (isTokenValid(recvToken)) {
+            var reqDic = reqData.data && reqData.data.typeCode || "";
+            var res;
+            if (dictionaryData[reqDic]) {
+                res = new RequestTemplate(dictionaryData[reqDic]);
+            } else {
+                res = new RequestTemplate([]);
+            }
+            res.page = {"start":0,"size":10,"currPage":1,"totalPage":1,"total":9,"pageCount":9,"nextPage":-1,"lastPage":1};
+            res.send(res);
+        } else {
+            res.status(401).send(new RequestTemplate({}, 4000, '登录过期'));
+        }
+    });
+    app.post('/service/province/config/dic/type', function (req, res) {
+        var recvToken = req.get('token');
+        var reqData = req.body && req.body || {};
+        if (isTokenValid(recvToken)) {
+            var reqDicList = reqData.data && reqData.data.typeList || [];
+            var resDicList = {};
+            reqDicList.forEach(function (dic) {
+                if (dictionaryData[dic]) {
+                    resDicList[dic] = dictionaryData[dic];
+                } else {
+                    resDicList[dic] = [];
+                }
+            });
+            res.send(new RequestTemplate(resDicList));
         } else {
             res.status(401).send(new RequestTemplate({}, 4000, '登录过期'));
         }
