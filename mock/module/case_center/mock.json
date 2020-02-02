@@ -1,26 +1,468 @@
-[
-    {
+[{
         "url": "/service/province/config/region/all/440000",
         "m": "get",
         "req": {},
-        "res": {"id":0,"sid":"fe749f2f-8c5a-4dfa-b133-bf728f922d04","state":{"code":200,"msg":"操作成功"},"data":[{"id":1,"magicId":"939d3b2c074571ad2200920f802281c3","createUser":"1","isDeleted":"N","createdTime":"2019-12-02 19:45:37","updatedTime":"2020-01-14 18:56:09","organizeCode":"440000000000","centerCode":"4400000000000","centerName":"测试办案中心","centerType":"district","botStatus":"Y","cmtUrl":"http://192.168.37.100/cmt/view/index.html#/orient_login/INDEX","patrolUrl":"http://192.168.37.100/cmt/view/index.html#/orient_menu_login/CASE_CENTER/CASE_AREA_MONITOR/%s/%s","mapPoint":"113.40004,23.391485","policemanNum":111,"roomNum":1112,"getTokenUrl":"http://192.168.37.100:90/service/login/castoken/%s","resourceUrl":"192.168.37.77:18910/service/resource/url"},{"id":3,"magicId":"255192d8f109debae2010d5b86de9f43","createUser":"1","isDeleted":"N","createdTime":"2019-12-03 09:55:03","updatedTime":"2019-12-04 17:32:26","organizeCode":"440000000000","centerCode":"44000000000001","centerName":"测试物管中心","centerType":"property","botStatus":"Y","cmtUrl":"http://192.168.37.100/cmt/view/index.html#/orient_login/PROPERTY_MGR_CENTER","patrolUrl":"http://192.168.37.100/cmt/view/index.html#/orient_login/PROPERTY_MGR_CENTER","mapPoint":"113.416463,22.907672","getTokenUrl":"http://192.168.37.100:90/service/login/castoken/%s","resourceUrl":"192.168.37.77:18910/service/resource/url"},{"id":5,"magicId":"4c12429d4483a4df0b3504c89055672e","createUser":"1","isDeleted":"N","createdTime":"2019-12-03 09:55:04","updatedTime":"2019-12-12 22:35:04","organizeCode":"440000000000","centerCode":"4400000000002","centerName":"测试办案中心12","centerType":"district","botStatus":"Y","cmtUrl":"http://192.168.37.100/cmt/view/index.html#/orient_login/INDEX","patrolUrl":"http://192.168.37.100/cmt/view/index.html#/orient_menu_login/CASE_CENTER/CASE_AREA_MONITOR","mapPoint":"113.776174,23.408141","getTokenUrl":"http://192.168.37.100:90/service/login/castoken/%s","resourceUrl":"192.168.37.77:18910/service/resource/url"},{"id":6,"magicId":"20b0875831649fca2aa3a4d691dab567","createUser":"1","isDeleted":"N","createdTime":"2019-12-03 09:55:05","updatedTime":"2019-12-04 17:32:26","organizeCode":"440000000000","centerCode":"440000000000","centerName":"广东省公安厅物管中心","centerType":"property","botStatus":"Y","cmtUrl":"http://192.168.37.100/cmt/view/index.html#/orient_login/PROPERTY_MGR_CENTER","patrolUrl":"http://192.168.37.100/cmt/view/index.html#/orient_login/PROPERTY_MGR_CENTER","mapPoint":"113.011802,23.034055","getTokenUrl":"http://192.168.37.100:90/service/login/castoken/%s","resourceUrl":"192.168.37.77:18910/service/resource/url"},{"id":55,"magicId":"d02f04ab2b40c4ac557f144f29d7b5cc","createUser":"1","isDeleted":"N","createdTime":"2019-12-04 16:41:47","updatedTime":"2019-12-12 21:43:21","organizeCode":"440000000000","centerCode":"440114500000","centerName":"yonghui","centerType":"archive","botStatus":"Y","cmtUrl":"http://192.168.37.163/cmt","patrolUrl":"http://192.168.37.163/cmt","mapPoint":"113.40519,23.441555","getTokenUrl":"http://192.168.37.100:90/service/login/castoken/%s","resourceUrl":"1111"},{"id":257,"magicId":"386d2953c97b59982e158bf11bdaa0bc","createUser":"1","isDeleted":"N","createdTime":"2019-12-05 13:51:13","updatedTime":"2019-12-05 13:51:13","organizeCode":"440000000000","centerCode":"4400000000001","centerName":"测试案管场所","centerType":"archive","botStatus":"Y","cmtUrl":"1","patrolUrl":"1","mapPoint":"112.992424,22.965105","getTokenUrl":"1","resourceUrl":"1"},{"id":268,"magicId":"dfdc0ee496839ce0db6b213662258ff9","createUser":"1","isDeleted":"N","createdTime":"2019-12-10 13:59:02","updatedTime":"2019-12-12 22:05:07","organizeCode":"440000000000","centerCode":"4400000000004","centerName":"测试新增","centerType":"district","botStatus":"Y","cmtUrl":"http://192.168.37.100/cmt/view/index.html#/orient_login/INDEX","patrolUrl":"http://192.168.37.100/cmt/view/index.html#/orient_menu_login/CASE_CENTER/CASE_AREA_MONITOR","getTokenUrl":"http://192.168.37.100:90/service/login/castoken/%s","resourceUrl":"192.168.37.77:18910/service/resource/url"},{"id":269,"magicId":"63c3d88da9b00b9869a796331c3bcba1","createUser":"1","isDeleted":"N","createdTime":"2019-12-10 13:59:03","updatedTime":"2019-12-10 13:59:03","organizeCode":"440114670000","centerCode":"44011467000001","centerName":"测试物管中心","centerType":"property","botStatus":"Y"},{"id":272,"magicId":"fcf26507b04dec2e9feb89b64ecbaa86","createUser":"1","isDeleted":"N","createdTime":"2019-12-10 13:59:03","updatedTime":"2019-12-12 22:05:07","organizeCode":"440000000000","centerCode":"440000000000","centerName":"测试办案中心2","centerType":"district","botStatus":"Y","cmtUrl":"http://192.168.37.100/cmt/view/index.html#/orient_login/INDEX","patrolUrl":"http://192.168.37.100/cmt/view/index.html#/orient_menu_login/CASE_CENTER/CASE_AREA_MONITOR","getTokenUrl":"http://192.168.37.100:90/service/login/castoken/%s","resourceUrl":"192.168.37.77:18910/service/resource/url"},{"id":273,"magicId":"0dafce2bc405263c058fa559de591913","createUser":"1","isDeleted":"N","createdTime":"2019-12-10 13:59:03","updatedTime":"2019-12-10 15:47:43","organizeCode":"440000000000","centerCode":"1","centerName":"广东省公安厅物管中心","centerType":"property","botStatus":"Y"},{"id":274,"magicId":"e0b035aa904bd63a8f208759344102d6","createUser":"1","isDeleted":"N","createdTime":"2019-12-10 13:59:03","updatedTime":"2019-12-10 15:47:52","organizeCode":"440000000000","centerCode":"44000000000005","centerName":"广东省公安厅案管中心","centerType":"archive","botStatus":"Y"},{"id":275,"magicId":"3b622f3f1683fa289383a7eca2979083","createUser":"1","isDeleted":"N","createdTime":"2019-12-10 13:59:03","updatedTime":"2019-12-10 15:47:59","organizeCode":"440000000000","centerCode":"44000000000020","centerName":"广东省公安厅物管中心2","centerType":"property","botStatus":"Y"},{"id":277,"magicId":"c1ba1b9d56962ea3874a30f3c7d8102f","createUser":"1","isDeleted":"N","createdTime":"2019-12-10 13:59:03","updatedTime":"2019-12-12 22:05:07","organizeCode":"440000000000","centerCode":"4400000000001","centerName":"广东省公456","centerType":"district","botStatus":"Y","cmtUrl":"http://192.168.37.100/cmt/view/index.html#/orient_login/INDEX","patrolUrl":"http://192.168.37.100/cmt/view/index.html#/orient_menu_login/CASE_CENTER/CASE_AREA_MONITOR","getTokenUrl":"http://192.168.37.100:90/service/login/castoken/%s","resourceUrl":"192.168.37.77:18910/service/resource/url"},{"id":279,"magicId":"9a0847ad81bce00df69f8b0f4550e474","createUser":"1","isDeleted":"N","createdTime":"2019-12-12 22:07:46","updatedTime":"2019-12-12 22:11:34","organizeCode":"440000000000","centerCode":"44000000000091","centerName":"测试办案中心","centerType":"district","botStatus":"Y"},{"id":280,"magicId":"a92c835a81dbcdd69e07f9416919ab15","createUser":"1","isDeleted":"N","createdTime":"2019-12-12 22:07:46","updatedTime":"2019-12-12 22:10:55","organizeCode":"440000000000","centerCode":"15155231","centerName":"广东省公安厅物管中心","centerType":"property","botStatus":"Y"},{"id":281,"magicId":"3d853117a87c0c1a8cdcac7f6328e0aa","createUser":"1","isDeleted":"N","createdTime":"2019-12-12 22:07:46","updatedTime":"2019-12-12 22:11:01","organizeCode":"440000000000","centerCode":"44000000000012","centerName":"广东省公安厅案管中心","centerType":"archive","botStatus":"Y"},{"id":282,"magicId":"da42399302be37333c26ac5ec838e336","createUser":"1","isDeleted":"N","createdTime":"2019-12-12 22:07:46","updatedTime":"2019-12-12 22:11:06","organizeCode":"440000000000","centerCode":"44000000000025","centerName":"广东省公安厅物管中心2","centerType":"property","botStatus":"Y"},{"id":283,"magicId":"d330fc582ae92389501f3e32f36c340c","createUser":"1","isDeleted":"N","createdTime":"2019-12-12 22:07:46","updatedTime":"2019-12-12 22:11:12","organizeCode":"440000000000","centerCode":"44000000000036","centerName":"广东省公安厅案管","centerType":"district","botStatus":"Y"},{"id":284,"magicId":"93e8278afbbae9bb25c121f07f615014","createUser":"1","isDeleted":"N","createdTime":"2019-12-12 22:07:46","updatedTime":"2019-12-12 22:11:19","organizeCode":"440000000000","centerCode":"440000000000255","centerName":"广东省公456","centerType":"district","botStatus":"Y"},{"id":285,"magicId":"89287d0090ebaa4e72b348e2e815b12c","createUser":"1","isDeleted":"N","createdTime":"2019-12-12 22:07:46","updatedTime":"2019-12-12 22:11:26","organizeCode":"440000000000","centerCode":"440000000000361","centerName":"测试新增","centerType":"district","botStatus":"Y"},{"id":286,"magicId":"4c465d8fd2232f9684d35504fde20197","createUser":"1","isDeleted":"N","createdTime":"2019-12-12 23:27:44","updatedTime":"2019-12-12 23:27:44","organizeCode":"440000000000","centerCode":"Anull-1","centerName":"省厅案管中心","centerType":"archive","botStatus":"Y"},{"id":287,"magicId":"9476c0d38787d61739620630a16b3360","createUser":"1","isDeleted":"N","createdTime":"2019-12-12 23:37:44","updatedTime":"2019-12-12 23:37:44","organizeCode":"440000000000","centerCode":"A440000000000-2","centerName":"广东省公安厅案管中心2","centerType":"archive","botStatus":"Y"},{"id":425,"magicId":"c3348996bdc5223203272a2bcdf74065","createUser":"1","isDeleted":"N","createdTime":"2019-12-14 00:17:45","updatedTime":"2019-12-14 00:17:45","organizeCode":"440000000000","centerCode":"B440000000000-5","centerName":"广东省公安厅办案中心","centerType":"district","botStatus":"Y"},{"id":572,"magicId":"8ae767bac1836abebe7b314311567de6","createUser":"1","isDeleted":"N","createdTime":"2019-12-16 18:18:34","updatedTime":"2020-01-16 16:56:30","organizeCode":"440000000000","centerCode":"441234567890","centerName":"厚街分局办案中心","centerType":"district","botStatus":"Y","cmtUrl":"1","patrolUrl":"1","mapPoint":"114.047177,22.688781","getTokenUrl":"1","resourceUrl":"1"}]}
+        "res": {
+            "id": 0,
+            "sid": "fe749f2f-8c5a-4dfa-b133-bf728f922d04",
+            "state": {
+                "code": 200,
+                "msg": "操作成功"
+            },
+            "data": [{
+                "id": 1,
+                "magicId": "939d3b2c074571ad2200920f802281c3",
+                "createUser": "1",
+                "isDeleted": "N",
+                "createdTime": "2019-12-02 19:45:37",
+                "updatedTime": "2020-01-14 18:56:09",
+                "organizeCode": "440000000000",
+                "centerCode": "4400000000000",
+                "centerName": "测试办案中心",
+                "centerType": "district",
+                "botStatus": "Y",
+                "cmtUrl": "http://192.168.37.100/cmt/view/index.html#/orient_login/INDEX",
+                "patrolUrl": "http://192.168.37.100/cmt/view/index.html#/orient_menu_login/CASE_CENTER/CASE_AREA_MONITOR/%s/%s",
+                "mapPoint": "113.40004,23.391485",
+                "policemanNum": 111,
+                "roomNum": 1112,
+                "getTokenUrl": "http://192.168.37.100:90/service/login/castoken/%s",
+                "resourceUrl": "192.168.37.77:18910/service/resource/url"
+            }, {
+                "id": 3,
+                "magicId": "255192d8f109debae2010d5b86de9f43",
+                "createUser": "1",
+                "isDeleted": "N",
+                "createdTime": "2019-12-03 09:55:03",
+                "updatedTime": "2019-12-04 17:32:26",
+                "organizeCode": "440000000000",
+                "centerCode": "44000000000001",
+                "centerName": "测试物管中心",
+                "centerType": "property",
+                "botStatus": "Y",
+                "cmtUrl": "http://192.168.37.100/cmt/view/index.html#/orient_login/PROPERTY_MGR_CENTER",
+                "patrolUrl": "http://192.168.37.100/cmt/view/index.html#/orient_login/PROPERTY_MGR_CENTER",
+                "mapPoint": "113.416463,22.907672",
+                "getTokenUrl": "http://192.168.37.100:90/service/login/castoken/%s",
+                "resourceUrl": "192.168.37.77:18910/service/resource/url"
+            }, {
+                "id": 5,
+                "magicId": "4c12429d4483a4df0b3504c89055672e",
+                "createUser": "1",
+                "isDeleted": "N",
+                "createdTime": "2019-12-03 09:55:04",
+                "updatedTime": "2019-12-12 22:35:04",
+                "organizeCode": "440000000000",
+                "centerCode": "4400000000002",
+                "centerName": "测试办案中心12",
+                "centerType": "district",
+                "botStatus": "Y",
+                "cmtUrl": "http://192.168.37.100/cmt/view/index.html#/orient_login/INDEX",
+                "patrolUrl": "http://192.168.37.100/cmt/view/index.html#/orient_menu_login/CASE_CENTER/CASE_AREA_MONITOR",
+                "mapPoint": "113.776174,23.408141",
+                "getTokenUrl": "http://192.168.37.100:90/service/login/castoken/%s",
+                "resourceUrl": "192.168.37.77:18910/service/resource/url"
+            }, {
+                "id": 6,
+                "magicId": "20b0875831649fca2aa3a4d691dab567",
+                "createUser": "1",
+                "isDeleted": "N",
+                "createdTime": "2019-12-03 09:55:05",
+                "updatedTime": "2019-12-04 17:32:26",
+                "organizeCode": "440000000000",
+                "centerCode": "440000000000",
+                "centerName": "广东省公安厅物管中心",
+                "centerType": "property",
+                "botStatus": "Y",
+                "cmtUrl": "http://192.168.37.100/cmt/view/index.html#/orient_login/PROPERTY_MGR_CENTER",
+                "patrolUrl": "http://192.168.37.100/cmt/view/index.html#/orient_login/PROPERTY_MGR_CENTER",
+                "mapPoint": "113.011802,23.034055",
+                "getTokenUrl": "http://192.168.37.100:90/service/login/castoken/%s",
+                "resourceUrl": "192.168.37.77:18910/service/resource/url"
+            }, {
+                "id": 55,
+                "magicId": "d02f04ab2b40c4ac557f144f29d7b5cc",
+                "createUser": "1",
+                "isDeleted": "N",
+                "createdTime": "2019-12-04 16:41:47",
+                "updatedTime": "2019-12-12 21:43:21",
+                "organizeCode": "440000000000",
+                "centerCode": "440114500000",
+                "centerName": "yonghui",
+                "centerType": "archive",
+                "botStatus": "Y",
+                "cmtUrl": "http://192.168.37.163/cmt",
+                "patrolUrl": "http://192.168.37.163/cmt",
+                "mapPoint": "113.40519,23.441555",
+                "getTokenUrl": "http://192.168.37.100:90/service/login/castoken/%s",
+                "resourceUrl": "1111"
+            }, {
+                "id": 257,
+                "magicId": "386d2953c97b59982e158bf11bdaa0bc",
+                "createUser": "1",
+                "isDeleted": "N",
+                "createdTime": "2019-12-05 13:51:13",
+                "updatedTime": "2019-12-05 13:51:13",
+                "organizeCode": "440000000000",
+                "centerCode": "4400000000001",
+                "centerName": "测试案管场所",
+                "centerType": "archive",
+                "botStatus": "Y",
+                "cmtUrl": "1",
+                "patrolUrl": "1",
+                "mapPoint": "112.992424,22.965105",
+                "getTokenUrl": "1",
+                "resourceUrl": "1"
+            }, {
+                "id": 268,
+                "magicId": "dfdc0ee496839ce0db6b213662258ff9",
+                "createUser": "1",
+                "isDeleted": "N",
+                "createdTime": "2019-12-10 13:59:02",
+                "updatedTime": "2019-12-12 22:05:07",
+                "organizeCode": "440000000000",
+                "centerCode": "4400000000004",
+                "centerName": "测试新增",
+                "centerType": "district",
+                "botStatus": "Y",
+                "cmtUrl": "http://192.168.37.100/cmt/view/index.html#/orient_login/INDEX",
+                "patrolUrl": "http://192.168.37.100/cmt/view/index.html#/orient_menu_login/CASE_CENTER/CASE_AREA_MONITOR",
+                "getTokenUrl": "http://192.168.37.100:90/service/login/castoken/%s",
+                "resourceUrl": "192.168.37.77:18910/service/resource/url"
+            }, {
+                "id": 269,
+                "magicId": "63c3d88da9b00b9869a796331c3bcba1",
+                "createUser": "1",
+                "isDeleted": "N",
+                "createdTime": "2019-12-10 13:59:03",
+                "updatedTime": "2019-12-10 13:59:03",
+                "organizeCode": "440114670000",
+                "centerCode": "44011467000001",
+                "centerName": "测试物管中心",
+                "centerType": "property",
+                "botStatus": "Y"
+            }, {
+                "id": 272,
+                "magicId": "fcf26507b04dec2e9feb89b64ecbaa86",
+                "createUser": "1",
+                "isDeleted": "N",
+                "createdTime": "2019-12-10 13:59:03",
+                "updatedTime": "2019-12-12 22:05:07",
+                "organizeCode": "440000000000",
+                "centerCode": "440000000000",
+                "centerName": "测试办案中心2",
+                "centerType": "district",
+                "botStatus": "Y",
+                "cmtUrl": "http://192.168.37.100/cmt/view/index.html#/orient_login/INDEX",
+                "patrolUrl": "http://192.168.37.100/cmt/view/index.html#/orient_menu_login/CASE_CENTER/CASE_AREA_MONITOR",
+                "getTokenUrl": "http://192.168.37.100:90/service/login/castoken/%s",
+                "resourceUrl": "192.168.37.77:18910/service/resource/url"
+            }, {
+                "id": 273,
+                "magicId": "0dafce2bc405263c058fa559de591913",
+                "createUser": "1",
+                "isDeleted": "N",
+                "createdTime": "2019-12-10 13:59:03",
+                "updatedTime": "2019-12-10 15:47:43",
+                "organizeCode": "440000000000",
+                "centerCode": "1",
+                "centerName": "广东省公安厅物管中心",
+                "centerType": "property",
+                "botStatus": "Y"
+            }, {
+                "id": 274,
+                "magicId": "e0b035aa904bd63a8f208759344102d6",
+                "createUser": "1",
+                "isDeleted": "N",
+                "createdTime": "2019-12-10 13:59:03",
+                "updatedTime": "2019-12-10 15:47:52",
+                "organizeCode": "440000000000",
+                "centerCode": "44000000000005",
+                "centerName": "广东省公安厅案管中心",
+                "centerType": "archive",
+                "botStatus": "Y"
+            }, {
+                "id": 275,
+                "magicId": "3b622f3f1683fa289383a7eca2979083",
+                "createUser": "1",
+                "isDeleted": "N",
+                "createdTime": "2019-12-10 13:59:03",
+                "updatedTime": "2019-12-10 15:47:59",
+                "organizeCode": "440000000000",
+                "centerCode": "44000000000020",
+                "centerName": "广东省公安厅物管中心2",
+                "centerType": "property",
+                "botStatus": "Y"
+            }, {
+                "id": 277,
+                "magicId": "c1ba1b9d56962ea3874a30f3c7d8102f",
+                "createUser": "1",
+                "isDeleted": "N",
+                "createdTime": "2019-12-10 13:59:03",
+                "updatedTime": "2019-12-12 22:05:07",
+                "organizeCode": "440000000000",
+                "centerCode": "4400000000001",
+                "centerName": "广东省公456",
+                "centerType": "district",
+                "botStatus": "Y",
+                "cmtUrl": "http://192.168.37.100/cmt/view/index.html#/orient_login/INDEX",
+                "patrolUrl": "http://192.168.37.100/cmt/view/index.html#/orient_menu_login/CASE_CENTER/CASE_AREA_MONITOR",
+                "getTokenUrl": "http://192.168.37.100:90/service/login/castoken/%s",
+                "resourceUrl": "192.168.37.77:18910/service/resource/url"
+            }, {
+                "id": 279,
+                "magicId": "9a0847ad81bce00df69f8b0f4550e474",
+                "createUser": "1",
+                "isDeleted": "N",
+                "createdTime": "2019-12-12 22:07:46",
+                "updatedTime": "2019-12-12 22:11:34",
+                "organizeCode": "440000000000",
+                "centerCode": "44000000000091",
+                "centerName": "测试办案中心",
+                "centerType": "district",
+                "botStatus": "Y"
+            }, {
+                "id": 280,
+                "magicId": "a92c835a81dbcdd69e07f9416919ab15",
+                "createUser": "1",
+                "isDeleted": "N",
+                "createdTime": "2019-12-12 22:07:46",
+                "updatedTime": "2019-12-12 22:10:55",
+                "organizeCode": "440000000000",
+                "centerCode": "15155231",
+                "centerName": "广东省公安厅物管中心",
+                "centerType": "property",
+                "botStatus": "Y"
+            }, {
+                "id": 281,
+                "magicId": "3d853117a87c0c1a8cdcac7f6328e0aa",
+                "createUser": "1",
+                "isDeleted": "N",
+                "createdTime": "2019-12-12 22:07:46",
+                "updatedTime": "2019-12-12 22:11:01",
+                "organizeCode": "440000000000",
+                "centerCode": "44000000000012",
+                "centerName": "广东省公安厅案管中心",
+                "centerType": "archive",
+                "botStatus": "Y"
+            }, {
+                "id": 282,
+                "magicId": "da42399302be37333c26ac5ec838e336",
+                "createUser": "1",
+                "isDeleted": "N",
+                "createdTime": "2019-12-12 22:07:46",
+                "updatedTime": "2019-12-12 22:11:06",
+                "organizeCode": "440000000000",
+                "centerCode": "44000000000025",
+                "centerName": "广东省公安厅物管中心2",
+                "centerType": "property",
+                "botStatus": "Y"
+            }, {
+                "id": 283,
+                "magicId": "d330fc582ae92389501f3e32f36c340c",
+                "createUser": "1",
+                "isDeleted": "N",
+                "createdTime": "2019-12-12 22:07:46",
+                "updatedTime": "2019-12-12 22:11:12",
+                "organizeCode": "440000000000",
+                "centerCode": "44000000000036",
+                "centerName": "广东省公安厅案管",
+                "centerType": "district",
+                "botStatus": "Y"
+            }, {
+                "id": 284,
+                "magicId": "93e8278afbbae9bb25c121f07f615014",
+                "createUser": "1",
+                "isDeleted": "N",
+                "createdTime": "2019-12-12 22:07:46",
+                "updatedTime": "2019-12-12 22:11:19",
+                "organizeCode": "440000000000",
+                "centerCode": "440000000000255",
+                "centerName": "广东省公456",
+                "centerType": "district",
+                "botStatus": "Y"
+            }, {
+                "id": 285,
+                "magicId": "89287d0090ebaa4e72b348e2e815b12c",
+                "createUser": "1",
+                "isDeleted": "N",
+                "createdTime": "2019-12-12 22:07:46",
+                "updatedTime": "2019-12-12 22:11:26",
+                "organizeCode": "440000000000",
+                "centerCode": "440000000000361",
+                "centerName": "测试新增",
+                "centerType": "district",
+                "botStatus": "Y"
+            }, {
+                "id": 286,
+                "magicId": "4c465d8fd2232f9684d35504fde20197",
+                "createUser": "1",
+                "isDeleted": "N",
+                "createdTime": "2019-12-12 23:27:44",
+                "updatedTime": "2019-12-12 23:27:44",
+                "organizeCode": "440000000000",
+                "centerCode": "Anull-1",
+                "centerName": "省厅案管中心",
+                "centerType": "archive",
+                "botStatus": "Y"
+            }, {
+                "id": 287,
+                "magicId": "9476c0d38787d61739620630a16b3360",
+                "createUser": "1",
+                "isDeleted": "N",
+                "createdTime": "2019-12-12 23:37:44",
+                "updatedTime": "2019-12-12 23:37:44",
+                "organizeCode": "440000000000",
+                "centerCode": "A440000000000-2",
+                "centerName": "广东省公安厅案管中心2",
+                "centerType": "archive",
+                "botStatus": "Y"
+            }, {
+                "id": 425,
+                "magicId": "c3348996bdc5223203272a2bcdf74065",
+                "createUser": "1",
+                "isDeleted": "N",
+                "createdTime": "2019-12-14 00:17:45",
+                "updatedTime": "2019-12-14 00:17:45",
+                "organizeCode": "440000000000",
+                "centerCode": "B440000000000-5",
+                "centerName": "广东省公安厅办案中心",
+                "centerType": "district",
+                "botStatus": "Y"
+            }, {
+                "id": 572,
+                "magicId": "8ae767bac1836abebe7b314311567de6",
+                "createUser": "1",
+                "isDeleted": "N",
+                "createdTime": "2019-12-16 18:18:34",
+                "updatedTime": "2020-01-16 16:56:30",
+                "organizeCode": "440000000000",
+                "centerCode": "441234567890",
+                "centerName": "厚街分局办案中心",
+                "centerType": "district",
+                "botStatus": "Y",
+                "cmtUrl": "1",
+                "patrolUrl": "1",
+                "mapPoint": "114.047177,22.688781",
+                "getTokenUrl": "1",
+                "resourceUrl": "1"
+            }]
+        }
     },
     {
         "url": "/service/province/home/center/realTime/stepProgress/status/count",
         "m": "post",
-        "req": {"data":{"isRegionCode":"true","regionCode":"440000"}},
-        "res": {"id":0,"sid":"fe749f2f-8c5a-4dfa-b133-bf728f922d04","state":{"code":200,"msg":"操作成功"},"data":[{"stepProgressStatus":"0","num":22,"stepProgressStatusName":"进入办案区"},{"stepProgressStatus":"1","num":20,"stepProgressStatusName":"登记"},{"stepProgressStatus":"1001","num":2,"stepProgressStatusName":"人身检查"},{"stepProgressStatus":"1002","num":3,"stepProgressStatusName":"随身物品"},{"stepProgressStatus":"1003","num":3,"stepProgressStatusName":"信息采集"},{"stepProgressStatus":"1004","num":4,"stepProgressStatusName":"候问"},{"stepProgressStatus":"1005","num":1,"stepProgressStatusName":"审讯"},{"stepProgressStatus":"1006","num":5,"stepProgressStatusName":"分配"},{"stepProgressStatus":"1007","num":15,"stepProgressStatusName":"申请离开"},{"stepProgressStatus":"1009","num":1,"stepProgressStatusName":"临时出区"}]}
+        "req": [{
+            "data": {
+                "isRegionCode": "true",
+                "regionCode": "440000"
+            }
+        },{
+            "data": {
+                "isRegionCode": "false",
+                "regionCode": "4400000000000"
+            }
+        }],
+        "res": [{
+            "id": 0,
+            "sid": "fe749f2f-8c5a-4dfa-b133-bf728f922d04",
+            "state": {
+                "code": 200,
+                "msg": "操作成功"
+            },
+            "data": [{
+                "stepProgressStatus": "0",
+                "num": 22,
+                "stepProgressStatusName": "进入办案区"
+            }, {
+                "stepProgressStatus": "1",
+                "num": 20,
+                "stepProgressStatusName": "登记"
+            }, {
+                "stepProgressStatus": "1001",
+                "num": 2,
+                "stepProgressStatusName": "人身检查"
+            }, {
+                "stepProgressStatus": "1002",
+                "num": 3,
+                "stepProgressStatusName": "随身物品"
+            }, {
+                "stepProgressStatus": "1003",
+                "num": 3,
+                "stepProgressStatusName": "信息采集"
+            }, {
+                "stepProgressStatus": "1004",
+                "num": 4,
+                "stepProgressStatusName": "候问"
+            }, {
+                "stepProgressStatus": "1005",
+                "num": 1,
+                "stepProgressStatusName": "审讯"
+            }, {
+                "stepProgressStatus": "1006",
+                "num": 5,
+                "stepProgressStatusName": "分配"
+            }, {
+                "stepProgressStatus": "1007",
+                "num": 15,
+                "stepProgressStatusName": "申请离开"
+            }, {
+                "stepProgressStatus": "1009",
+                "num": 1,
+                "stepProgressStatusName": "临时出区"
+            }]
+        }, {
+            "id": 0,
+            "sid": "fe749f2f-8c5a-4dfa-b133-bf728f922d04",
+            "state": {
+                "code": 200,
+                "msg": "操作成功"
+            },
+            "data": [{
+                "stepProgressStatus": "0",
+                "num": 3,
+                "stepProgressStatusName": "进入办案区"
+            }]
+        }]
     },
     {
         "url": "/service/province/home/center/suspect/in/trends",
         "m": "post",
-        "req":{"data":{"isRegionCode":"true","regionCode":"440000","timeSlot":"WEEK"}},
-        "res": {"id":0,"sid":"fe749f2f-8c5a-4dfa-b133-bf728f922d04","state":{"code":200,"msg":"操作成功"},"data":{"lastYearData":[],"currentDate":"2020-01-20 13:49:15","thisYearData":[{"isDeleted":"N","suspectIn":158,"statusDate":"2020-01"}]}}
+        "req": {
+            "data": {
+                "isRegionCode": "true",
+                "regionCode": "440000",
+                "timeSlot": "WEEK"
+            }
+        },
+        "res": {
+            "id": 0,
+            "sid": "fe749f2f-8c5a-4dfa-b133-bf728f922d04",
+            "state": {
+                "code": 200,
+                "msg": "操作成功"
+            },
+            "data": {
+                "lastYearData": [],
+                "currentDate": "2020-01-20 13:49:15",
+                "thisYearData": [{
+                    "isDeleted": "N",
+                    "suspectIn": 158,
+                    "statusDate": "2020-01"
+                }]
+            }
+        }
     },
     {
         "url": "/service/province/home/center/person/info",
         "m": "post",
-        "req": {"data":{"isRegionCode":"true","regionCode":"440000","timeSlot":"WEEK"}},
+        "req": {
+            "data": {
+                "isRegionCode": "true",
+                "regionCode": "440000",
+                "timeSlot": "WEEK"
+            }
+        },
         "res": {
             "id": 0,
             "sid": "034c3b67-68ae-4e44-bc39-c153c0629068",
@@ -62,7 +504,14 @@
     {
         "url": "/service/province/home/center/case/info",
         "m": "post",
-        "req": {"data":{"isRegionCode":"true","regionCode":"440000","sortSize":8,"timeSlot":"WEEK"}},
+        "req": {
+            "data": {
+                "isRegionCode": "true",
+                "regionCode": "440000",
+                "sortSize": 8,
+                "timeSlot": "WEEK"
+            }
+        },
         "res": {
             "id": 0,
             "sid": "034c3b67-68ae-4e44-bc39-c153c0629068",
@@ -120,7 +569,13 @@
     {
         "url": "/service/province/home/center/goods/info",
         "m": "post",
-        "req": {"data":{"isRegionCode":"true","regionCode":"440000","timeSlot":"WEEK"}},
+        "req": {
+            "data": {
+                "isRegionCode": "true",
+                "regionCode": "440000",
+                "timeSlot": "WEEK"
+            }
+        },
         "res": {
             "id": 0,
             "sid": "034c3b67-68ae-4e44-bc39-c153c0629068",
@@ -161,13 +616,180 @@
     {
         "url": "/service/province/home/center/alarm",
         "m": "post",
-        "req": {"data":{"regionCode":"440000","isRegionCode":"true"},"page":{"page":1,"size":10},"timeQuery":{"endTime":"2020-01-20 13:49:47","startTime":"2020-01-13 13:49:47","timeColumn":"NOTICE_DATE"}},
-        "res": {"id":0,"sid":"fe749f2f-8c5a-4dfa-b133-bf728f922d04","state":{"code":200,"msg":"操作成功"},"data":[{"alarmContent":"涉案人阿板已超时羁押，请及时处理！","updatedTime":"2020-01-15 17:15:23","alarmTime":"2020-01-15 13:18:23","alarmId":"5570a96f17496c7cb08042894376a975","centerCode":"4400000000000","createdTime":"2019-12-03 09:55:01","handleStatus":"unhandle","startTime":"2019-12-02 17:59:30","endTime":"2019-12-02 18:00:30","algType":"2010","centerType":"district","centerName":"测试办案中心"},{"alarmContent":"涉案人测试审批已超时羁押，请及时处理！","updatedTime":"2020-01-15 17:15:24","alarmTime":"2020-01-15 13:18:23","alarmId":"c6bc4815e60517fc9b4656a82ff6d55f","centerCode":"4400000000000","createdTime":"2019-12-03 09:55:01","handleStatus":"unhandle","startTime":"2019-12-02 21:59:30","endTime":"2019-12-02 22:00:30","algType":"2010","centerType":"district","centerName":"测试办案中心"},{"alarmContent":"涉案人操作已超时羁押，请及时处理！","updatedTime":"2020-01-15 17:15:24","alarmTime":"2020-01-15 13:18:23","alarmId":"d30217e6b5946ff595c4762e9ecbe1e6","centerCode":"4400000000000","createdTime":"2019-12-03 09:55:01","handleStatus":"unhandle","startTime":"2019-12-03 00:29:30","endTime":"2019-12-03 00:30:30","algType":"2010","centerType":"district","centerName":"测试办案中心"},{"alarmContent":"涉案人绿了已超时羁押，请及时处理！","updatedTime":"2020-01-15 17:15:24","alarmTime":"2020-01-15 13:18:23","alarmId":"83b383839edc1ccd864263759482b099","centerCode":"4400000000000","createdTime":"2019-12-03 09:55:01","handleStatus":"unhandle","startTime":"2019-12-03 03:59:30","endTime":"2019-12-03 04:00:30","algType":"2010","centerType":"district","centerName":"测试办案中心"},{"alarmContent":"涉案人时摇未进行人身安全检查，请及时处理！","updatedTime":"2020-01-15 17:15:24","alarmTime":"2020-01-15 13:18:23","alarmId":"92e892bb8e01d867fd3f2dac7088bdae","centerCode":"4400000000000","createdTime":"2019-12-03 09:55:01","handleStatus":"unhandle","startTime":"2019-11-11 09:40:40","endTime":"2019-11-11 09:41:40","algType":"2014","centerType":"district","centerName":"测试办案中心2"},{"alarmContent":"涉案人时摇未关联案件或警情，请及时处理！","updatedTime":"2020-01-15 17:15:24","alarmTime":"2020-01-15 13:18:23","alarmId":"8a1eea6fffe512907da587320c8f0d43","centerCode":"4400000000000","createdTime":"2019-12-03 09:55:01","handleStatus":"unhandle","startTime":"2019-11-11 09:48:20","endTime":"2019-11-11 09:49:20","algType":"2019","centerType":"district","centerName":"测试办案中心2"},{"alarmContent":"人员靓女在候问室1内出现男女混押现象，请及时处理！","updatedTime":"2020-01-16 00:59:38","alarmTime":"2020-01-15 03:18:23","alarmId":"11abbdccc70cfe15027f9be73f66aedc","centerCode":"4400000000000","createdTime":"2019-12-03 09:55:00","handleStatus":"unhandle","startTime":"2019-12-02 09:17:53","endTime":"2019-12-02 09:18:53","algType":"2023","centerType":"district","centerName":"厚街办案中心"},{"alarmContent":"涉案人阿板未进行人身安全检查，请及时处理！","updatedTime":"2020-01-16 01:09:21","alarmTime":"2020-01-15 03:18:23","alarmId":"2039a170952539b316242aed0a27667f","centerCode":"4400000000000","createdTime":"2019-12-03 09:55:00","handleStatus":"unhandle","startTime":"2019-12-02 09:58:43","endTime":"2019-12-02 09:59:43","algType":"2014","centerType":"district","centerName":"测试办案中心"},{"alarmContent":"涉案人活动轨迹未进行人身安全检查，请及时处理！","updatedTime":"2020-01-16 01:09:21","alarmTime":"2020-01-15 03:18:23","alarmId":"9b19b3d4680bdcfafdcc28f566cb953e","centerCode":"4400000000000","createdTime":"2019-12-03 09:55:00","handleStatus":"unhandle","startTime":"2019-12-02 15:47:27","endTime":"2019-12-02 15:48:27","algType":"2014","centerType":"district","centerName":"测试办案中心2"},{"alarmContent":"涉案人活动轨迹未关联案件或警情，请及时处理！","updatedTime":"2020-01-16 01:09:21","alarmTime":"2020-01-15 03:18:23","alarmId":"53a8f71edf4bad9b1caab87545c6368a","centerCode":"4400000000000","createdTime":"2019-12-03 09:55:00","handleStatus":"unhandle","startTime":"2019-12-02 15:55:29","endTime":"2019-12-02 15:56:29","algType":"2019","centerType":"district","centerName":"测试办案中心2"}],"page":{"start":0,"size":10,"currPage":1,"totalPage":8,"total":72,"pageCount":8,"lastPage":1,"nextPage":2}}
+        "req": {
+            "data": {
+                "regionCode": "440000",
+                "isRegionCode": "true"
+            },
+            "page": {
+                "page": 1,
+                "size": 10
+            },
+            "timeQuery": {
+                "endTime": "2020-01-20 13:49:47",
+                "startTime": "2020-01-13 13:49:47",
+                "timeColumn": "NOTICE_DATE"
+            }
+        },
+        "res": {
+            "id": 0,
+            "sid": "fe749f2f-8c5a-4dfa-b133-bf728f922d04",
+            "state": {
+                "code": 200,
+                "msg": "操作成功"
+            },
+            "data": [{
+                "alarmContent": "涉案人阿板已超时羁押，请及时处理！",
+                "updatedTime": "2020-01-15 17:15:23",
+                "alarmTime": "2020-01-15 13:18:23",
+                "alarmId": "5570a96f17496c7cb08042894376a975",
+                "centerCode": "4400000000000",
+                "createdTime": "2019-12-03 09:55:01",
+                "handleStatus": "unhandle",
+                "startTime": "2019-12-02 17:59:30",
+                "endTime": "2019-12-02 18:00:30",
+                "algType": "2010",
+                "centerType": "district",
+                "centerName": "测试办案中心"
+            }, {
+                "alarmContent": "涉案人测试审批已超时羁押，请及时处理！",
+                "updatedTime": "2020-01-15 17:15:24",
+                "alarmTime": "2020-01-15 13:18:23",
+                "alarmId": "c6bc4815e60517fc9b4656a82ff6d55f",
+                "centerCode": "4400000000000",
+                "createdTime": "2019-12-03 09:55:01",
+                "handleStatus": "unhandle",
+                "startTime": "2019-12-02 21:59:30",
+                "endTime": "2019-12-02 22:00:30",
+                "algType": "2010",
+                "centerType": "district",
+                "centerName": "测试办案中心"
+            }, {
+                "alarmContent": "涉案人操作已超时羁押，请及时处理！",
+                "updatedTime": "2020-01-15 17:15:24",
+                "alarmTime": "2020-01-15 13:18:23",
+                "alarmId": "d30217e6b5946ff595c4762e9ecbe1e6",
+                "centerCode": "4400000000000",
+                "createdTime": "2019-12-03 09:55:01",
+                "handleStatus": "unhandle",
+                "startTime": "2019-12-03 00:29:30",
+                "endTime": "2019-12-03 00:30:30",
+                "algType": "2010",
+                "centerType": "district",
+                "centerName": "测试办案中心"
+            }, {
+                "alarmContent": "涉案人绿了已超时羁押，请及时处理！",
+                "updatedTime": "2020-01-15 17:15:24",
+                "alarmTime": "2020-01-15 13:18:23",
+                "alarmId": "83b383839edc1ccd864263759482b099",
+                "centerCode": "4400000000000",
+                "createdTime": "2019-12-03 09:55:01",
+                "handleStatus": "unhandle",
+                "startTime": "2019-12-03 03:59:30",
+                "endTime": "2019-12-03 04:00:30",
+                "algType": "2010",
+                "centerType": "district",
+                "centerName": "测试办案中心"
+            }, {
+                "alarmContent": "涉案人时摇未进行人身安全检查，请及时处理！",
+                "updatedTime": "2020-01-15 17:15:24",
+                "alarmTime": "2020-01-15 13:18:23",
+                "alarmId": "92e892bb8e01d867fd3f2dac7088bdae",
+                "centerCode": "4400000000000",
+                "createdTime": "2019-12-03 09:55:01",
+                "handleStatus": "unhandle",
+                "startTime": "2019-11-11 09:40:40",
+                "endTime": "2019-11-11 09:41:40",
+                "algType": "2014",
+                "centerType": "district",
+                "centerName": "测试办案中心2"
+            }, {
+                "alarmContent": "涉案人时摇未关联案件或警情，请及时处理！",
+                "updatedTime": "2020-01-15 17:15:24",
+                "alarmTime": "2020-01-15 13:18:23",
+                "alarmId": "8a1eea6fffe512907da587320c8f0d43",
+                "centerCode": "4400000000000",
+                "createdTime": "2019-12-03 09:55:01",
+                "handleStatus": "unhandle",
+                "startTime": "2019-11-11 09:48:20",
+                "endTime": "2019-11-11 09:49:20",
+                "algType": "2019",
+                "centerType": "district",
+                "centerName": "测试办案中心2"
+            }, {
+                "alarmContent": "人员靓女在候问室1内出现男女混押现象，请及时处理！",
+                "updatedTime": "2020-01-16 00:59:38",
+                "alarmTime": "2020-01-15 03:18:23",
+                "alarmId": "11abbdccc70cfe15027f9be73f66aedc",
+                "centerCode": "4400000000000",
+                "createdTime": "2019-12-03 09:55:00",
+                "handleStatus": "unhandle",
+                "startTime": "2019-12-02 09:17:53",
+                "endTime": "2019-12-02 09:18:53",
+                "algType": "2023",
+                "centerType": "district",
+                "centerName": "厚街办案中心"
+            }, {
+                "alarmContent": "涉案人阿板未进行人身安全检查，请及时处理！",
+                "updatedTime": "2020-01-16 01:09:21",
+                "alarmTime": "2020-01-15 03:18:23",
+                "alarmId": "2039a170952539b316242aed0a27667f",
+                "centerCode": "4400000000000",
+                "createdTime": "2019-12-03 09:55:00",
+                "handleStatus": "unhandle",
+                "startTime": "2019-12-02 09:58:43",
+                "endTime": "2019-12-02 09:59:43",
+                "algType": "2014",
+                "centerType": "district",
+                "centerName": "测试办案中心"
+            }, {
+                "alarmContent": "涉案人活动轨迹未进行人身安全检查，请及时处理！",
+                "updatedTime": "2020-01-16 01:09:21",
+                "alarmTime": "2020-01-15 03:18:23",
+                "alarmId": "9b19b3d4680bdcfafdcc28f566cb953e",
+                "centerCode": "4400000000000",
+                "createdTime": "2019-12-03 09:55:00",
+                "handleStatus": "unhandle",
+                "startTime": "2019-12-02 15:47:27",
+                "endTime": "2019-12-02 15:48:27",
+                "algType": "2014",
+                "centerType": "district",
+                "centerName": "测试办案中心2"
+            }, {
+                "alarmContent": "涉案人活动轨迹未关联案件或警情，请及时处理！",
+                "updatedTime": "2020-01-16 01:09:21",
+                "alarmTime": "2020-01-15 03:18:23",
+                "alarmId": "53a8f71edf4bad9b1caab87545c6368a",
+                "centerCode": "4400000000000",
+                "createdTime": "2019-12-03 09:55:00",
+                "handleStatus": "unhandle",
+                "startTime": "2019-12-02 15:55:29",
+                "endTime": "2019-12-02 15:56:29",
+                "algType": "2019",
+                "centerType": "district",
+                "centerName": "测试办案中心2"
+            }],
+            "page": {
+                "start": 0,
+                "size": 10,
+                "currPage": 1,
+                "totalPage": 8,
+                "total": 72,
+                "pageCount": 8,
+                "lastPage": 1,
+                "nextPage": 2
+            }
+        }
     },
     {
         "url": "/service/province/home/center/center/Suspect/in/rank",
         "m": "post",
-        "req": {"data":{"regionCode":"440000","timeSlot":"WEEK"}},
+        "req": {
+            "data": {
+                "regionCode": "440000",
+                "timeSlot": "WEEK"
+            }
+        },
         "res": {
             "id": 0,
             "sid": "034c3b67-68ae-4e44-bc39-c153c0629068",
@@ -189,7 +811,37 @@
     {
         "url": "/service/province/home/center/situation/window",
         "m": "post",
-        "req": {"data":{"regionCode":"440000"}},
-        "res": {"id":0,"sid":"fe749f2f-8c5a-4dfa-b133-bf728f922d04","state":{"code":200,"msg":"操作成功"},"data":[{"total":10,"regionCode":"440000","district":{"built":10,"building":0,"notBuilt":0},"regionName":"广东省"},{"total":1,"regionCode":"440300","district":{"built":1,"building":0,"notBuilt":0},"regionName":"深圳市"}]}
+        "req": {
+            "data": {
+                "regionCode": "440000"
+            }
+        },
+        "res": {
+            "id": 0,
+            "sid": "fe749f2f-8c5a-4dfa-b133-bf728f922d04",
+            "state": {
+                "code": 200,
+                "msg": "操作成功"
+            },
+            "data": [{
+                "total": 10,
+                "regionCode": "440000",
+                "district": {
+                    "built": 10,
+                    "building": 0,
+                    "notBuilt": 0
+                },
+                "regionName": "广东省"
+            }, {
+                "total": 1,
+                "regionCode": "440300",
+                "district": {
+                    "built": 1,
+                    "building": 0,
+                    "notBuilt": 0
+                },
+                "regionName": "深圳市"
+            }]
+        }
     }
 ]

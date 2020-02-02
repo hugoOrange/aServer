@@ -123,12 +123,21 @@ module.exports = function (app) {
         app[m.m](m.url, function (req, res) {
             var recvToken = req.get('token');
             var reqData = req.body && req.body || {};
+            var responseData = new RequestTemplate({}, 5000, '参数错误');
             if (isTokenValid(recvToken)) {
-                if (diff(reqData, m.req)) {
-                    res.send(m.res);
+                if (_.isArray(m.req)) {
+                    for (let i = 0; i < m.req.length; i++) {
+                        if (diff(reqData, m.req[i])) {
+                            responseData = m.res[i];
+                            break;
+                        }
+                    }
                 } else {
-                    res.send(new RequestTemplate({}, 5000, '参数错误'));
+                    if (diff(reqData, m.req)) {
+                        responseData = m.res;
+                    }
                 }
+                res.send(responseData);
             } else {
                 res.status(401).send(new RequestTemplate({}, 4000, '登录过期'));
             }
