@@ -428,14 +428,20 @@
     {
         "url": "/service/province/home/center/suspect/in/trends",
         "m": "post",
-        "req": {
+        "req": [{
             "data": {
                 "isRegionCode": "true",
                 "regionCode": "440000",
                 "timeSlot": "WEEK"
             }
-        },
-        "res": {
+        }, {
+            "data": {
+                "isRegionCode": "false",
+                "regionCode": "4400000000000",
+                "timeSlot": "WEEK"
+            }
+        }],
+        "res": [{
             "id": 0,
             "sid": "fe749f2f-8c5a-4dfa-b133-bf728f922d04",
             "state": {
@@ -451,19 +457,41 @@
                     "statusDate": "2020-01"
                 }]
             }
-        }
+        }, {
+            "id": 0,
+            "sid": "fe749f2f-8c5a-4dfa-b133-bf728f922d04",
+            "state": {
+                "code": 200,
+                "msg": "操作成功"
+            },
+            "data": {
+                "lastYearData": [],
+                "currentDate": "2020-01-20 13:49:15",
+                "thisYearData": [{
+                    "isDeleted": "N",
+                    "suspectIn": 18,
+                    "statusDate": "2020-01"
+                }]
+            }
+        }]
     },
     {
         "url": "/service/province/home/center/person/info",
         "m": "post",
-        "req": {
+        "req": [{
             "data": {
                 "isRegionCode": "true",
                 "regionCode": "440000",
                 "timeSlot": "WEEK"
             }
-        },
-        "res": {
+        }, {
+            "data": {
+                "isRegionCode": "false",
+                "regionCode": "4400000000000",
+                "timeSlot": "WEEK"
+            }
+        }],
+        "res": [{
             "id": 0,
             "sid": "034c3b67-68ae-4e44-bc39-c153c0629068",
             "state": {
@@ -499,20 +527,55 @@
                     "totalNum": 4
                 }]
             }
-        }
+        }, {
+            "id": 0,
+            "sid": "034c3b67-68ae-4e44-bc39-c153c0629068",
+            "state": {
+                "code": 200,
+                "msg": "操作成功"
+            },
+            "data": {
+                "numInfo": {
+                    "in": 68,
+                    "out": 23,
+                    "temporaryOut": 5,
+                    "temporaryIn": 3,
+                    "criminalCase": 0,
+                    "govCase": 0,
+                    "involvedCsaeGoods": 0,
+                    "noneInvolvedCsaeGoods": 0
+                },
+                "personType": [{
+                    "isDeleted": "N",
+                    "personCaseType": "suspect",
+                    "totalNum": 12
+                }, {
+                    "isDeleted": "N",
+                    "personCaseType": "victim",
+                    "totalNum": 1
+                }]
+            }
+        }]
     },
     {
         "url": "/service/province/home/center/case/info",
         "m": "post",
-        "req": {
+        "req": [{
             "data": {
                 "isRegionCode": "true",
                 "regionCode": "440000",
                 "sortSize": 8,
                 "timeSlot": "WEEK"
             }
-        },
-        "res": {
+        }, {
+            "data": {
+                "isRegionCode": "false",
+                "regionCode": "4400000000000",
+                "sortSize": 8,
+                "timeSlot": "WEEK"
+            }
+        }],
+        "res": [{
             "id": 0,
             "sid": "034c3b67-68ae-4e44-bc39-c153c0629068",
             "state": {
@@ -564,19 +627,57 @@
                     "dicName": "赌博"
                 }]
             }
-        }
+        }, {
+            "id": 0,
+            "sid": "034c3b67-68ae-4e44-bc39-c153c0629068",
+            "state": {
+                "code": 200,
+                "msg": "操作成功"
+            },
+            "data": {
+                "numInfo": {
+                    "in": 0,
+                    "out": 0,
+                    "temporaryOut": 0,
+                    "temporaryIn": 0,
+                    "criminalCase": 68,
+                    "govCase": 0,
+                    "involvedCsaeGoods": 0,
+                    "noneInvolvedCsaeGoods": 0
+                },
+                "caseInfo": [{
+                    "dicCode": "xunxinzishi",
+                    "num": 1,
+                    "dicName": "寻衅滋事"
+                }, {
+                    "dicCode": "qiangduoan",
+                    "num": 3,
+                    "dicName": "抢夺案"
+                }, {
+                    "dicCode": "dubo",
+                    "num": 4,
+                    "dicName": "赌博"
+                }]
+            }
+        }]
     },
     {
         "url": "/service/province/home/center/goods/info",
         "m": "post",
-        "req": {
+        "req": [{
             "data": {
                 "isRegionCode": "true",
                 "regionCode": "440000",
                 "timeSlot": "WEEK"
             }
-        },
-        "res": {
+        }, {
+            "data": {
+                "isRegionCode": "false",
+                "regionCode": "4400000000000",
+                "timeSlot": "WEEK"
+            }
+        }],
+        "res": [{
             "id": 0,
             "sid": "034c3b67-68ae-4e44-bc39-c153c0629068",
             "state": {
@@ -611,12 +712,38 @@
                     "num": 3
                 }]
             }
-        }
+        }, {
+            "id": 0,
+            "sid": "034c3b67-68ae-4e44-bc39-c153c0629068",
+            "state": {
+                "code": 200,
+                "msg": "操作成功"
+            },
+            "data": {
+                "numsInfo": {
+                    "in": 0,
+                    "out": 0,
+                    "temporaryOut": 0,
+                    "temporaryIn": 0,
+                    "criminalCase": 0,
+                    "govCase": 0,
+                    "involvedCsaeGoods": 4,
+                    "noneInvolvedCsaeGoods": 5
+                },
+                "goodsInfo": [{
+                    "dicCode": "entrust_take",
+                    "num": 1
+                }, {
+                    "dicCode": "no_take",
+                    "num": 10
+                }]
+            }
+        }]
     },
     {
         "url": "/service/province/home/center/alarm",
         "m": "post",
-        "req": {
+        "req": [{
             "data": {
                 "regionCode": "440000",
                 "isRegionCode": "true"
@@ -630,8 +757,22 @@
                 "startTime": "2020-01-13 13:49:47",
                 "timeColumn": "NOTICE_DATE"
             }
-        },
-        "res": {
+        }, {
+            "data": {
+                "regionCode": "4400000000000",
+                "isRegionCode": "false"
+            },
+            "page": {
+                "page": 1,
+                "size": 10
+            },
+            "timeQuery": {
+                "endTime": "2020-01-20 13:49:47",
+                "startTime": "2020-01-13 13:49:47",
+                "timeColumn": "NOTICE_DATE"
+            }
+        }],
+        "res": [{
             "id": 0,
             "sid": "fe749f2f-8c5a-4dfa-b133-bf728f922d04",
             "state": {
@@ -779,7 +920,25 @@
                 "lastPage": 1,
                 "nextPage": 2
             }
-        }
+        }, {
+            "id": 0,
+            "sid": "fe749f2f-8c5a-4dfa-b133-bf728f922d04",
+            "state": {
+                "code": 200,
+                "msg": "操作成功"
+            },
+            "data": [],
+            "page": {
+                "start": 0,
+                "size": 10,
+                "currPage": 1,
+                "totalPage": 1,
+                "total": 0,
+                "pageCount": 1,
+                "lastPage": 1,
+                "nextPage": 1
+            }
+        }]
     },
     {
         "url": "/service/province/home/center/center/Suspect/in/rank",
