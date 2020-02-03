@@ -3,8 +3,9 @@
  */
 const MOCK_PATH = [
     './module/common/region.json',
-    // './module/common/dictionary.json',
-    './module/case_center/mock.json'
+    './module/case_center/mock.json',
+
+    // 在下面这里添加模拟数据的文件路径
 ];
 
 
