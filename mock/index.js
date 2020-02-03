@@ -9,7 +9,6 @@ const MOCK_PATH = [
 ];
 
 
-
 module.exports = function () {
     var bigData = [];
     MOCK_PATH.forEach(function (path) {
