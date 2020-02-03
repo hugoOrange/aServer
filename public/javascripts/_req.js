@@ -80,4 +80,30 @@ $(document).ready(function () {
             }
         });
     });
+
+
+    // get request mock data
+    const requestFile = [
+        "test",
+        "case_center",
+    ];
+
+    function appendBtn(reqName) {
+        var btn = $(`<button>${reqName}</button>`);
+        btn.on("click", function () {
+            $.ajax({
+                type: "GET",
+                url: "./json/" + reqName + ".json",
+                dataType: "json",
+                success: function (data) {
+                    console.log(data);  
+                }
+            })
+        });
+        $("#app").append(btn);
+    }
+
+    requestFile.forEach(function (rFile) {
+        appendBtn(rFile);
+    });
 })

@@ -1,0 +1,135 @@
+[{
+    "url": "/service/province/case/sign/save",
+    "m": "post",
+    "req": {
+        "userCode": "110",
+        "userName": "管理员",
+        "orgCode": "44000000000",
+        "centerCode": "",
+        "signIp": "",
+        "signType": "online",
+        "centerType": "archive"
+    }
+}, {
+    "url": "/service/common/attachments/find",
+    "m": "post",
+    "req": {
+        "data": {
+            "businessMagicId": "magicId",
+            "isDeleted": "N"
+        }
+    }
+}, {
+    "url": "/service/province/home/alarm/check/alarm",
+    "m": "post",
+    "req": {
+        "data": {
+            "regionCode": "440000",
+            "isRegionCode": "true"
+        },
+        "page": {
+            "page": 1,
+            "size": 10
+        },
+        "timeQuery": {
+            "endTime": "2019-01-01 00:00:00",
+            "startTime": "2020-01-01 00:00:00",
+            "timeColumn": "NOTICE_DATE"
+        }
+    }
+}, {
+    "url": "/service/province/home/alarm/statistic",
+    "m": "post",
+    "req": {
+        "data": {
+            "isRegionCode": "true",
+            "regionCode": "440000"
+        }
+    }
+}, {
+    "url": "/service/province/home/alarm/measure",
+    "m": "post",
+    "req": {
+        "data": {
+            "isRegionCode": "true",
+            "regionCode": "440000"
+        }
+    }
+}, {
+    "url": "/service/province/home/alarm/measure/info/window",
+    "m": "post",
+    "req": {
+        "data": {
+            "isRegionCode": "true",
+            "regionCode": "440000"
+        }
+    }
+}, {
+    "url": "/service/province/home/alarm/check/point",
+    "m": "post",
+    "req": {
+        "data": {
+            "isRegionCode": "true",
+            "regionCode": "440000"
+        }
+    }
+}, {
+    "url": "/service/province/home/alarm/check/quality",
+    "m": "post",
+    "req": {
+        "data": {
+            "isRegionCode": "true",
+            "regionCode": "440000",
+            "type": 0
+        }
+    }
+}, {
+    "url": "/service/province/home/alarm/archive/case",
+    "m": "post",
+    "req": {
+        "data": {
+            "isRegionCode":"true",
+            "regionCode": "440000",
+            "size": 10
+        }
+    }
+}, {
+    "url": "/service/province/home/alarm/archive/police",
+    "m": "post",
+    "req": {
+        "data": {
+            "isRegionCode": "true",
+            "regionCode": "440000",
+            "size": 10
+        }
+    }
+}, {
+    "url": "/service/province/home/alarm/archive/case/window",
+    "m": "post",
+    "req": {
+        "data": {
+            "isRegionCode": "true",
+            "regionCode": "440000",
+            "size": 10
+        }
+    }
+}, {
+    "url": "/service/province/home/alarm/archive/police/window",
+    "m": "post",
+    "req": {
+        "data": {
+            "isRegionCode": "true",
+            "regionCode": "440000",
+            "size": 10
+        }
+    }
+}, {
+    "url": "/service/province/home/alarm/check/count",
+    "m": "post",
+    "req": {
+        "data": {
+            "isRegionCode": "true",
+            "regionCode": "440000"
+        }
+    }
+}]

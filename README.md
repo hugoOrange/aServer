@@ -8,6 +8,22 @@ npm install
 npm run serve
 ```
 
+## nginx 配置
+
+增加如下nginx配置
+```conf
+{
+    server {
+        listen 8482;
+        server_name loclhost;
+
+        location /pmp/service {
+            proxy_pass http://localhost:4553/service;
+        }
+    }
+}
+```
+
 ## 配置返回数据
 
 在`mock/module/`目录下新增一个模块目录`myRequest`，在目录下新增文件`myRequest.json`:
