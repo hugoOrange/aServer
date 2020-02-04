@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "serve": "DEBUG=aserver:* PORT=4553 npm start"
+    "lserve": "DEBUG=aserver:* PORT=4553 npm start",
+    "wserve": "set DEBUG=aserver:* PORT=4553 npm start"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",

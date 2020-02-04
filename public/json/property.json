@@ -1,0 +1,98 @@
+[{
+    "url": "/service/province/property/warning/info",
+    "m": "post",
+    "req": {
+        "data": {
+            "regionCode": "440000",
+            "isRegionCode": "true"
+        },
+        "page": {
+            "page": 1,
+            "size": 10
+        },
+        "timeQuery": {
+            "endTime": "2019-01-01 00:00:00",
+            "startTime": "2020-01-01 00:00:00",
+            "timeColumn": "NOTICE_DATE"
+        }
+    }
+},{
+    "url": "/service/province/property/total",
+    "m": "post",
+    "req": {
+        "data": {
+            "isRegionCode": "true",
+            "regionCode": "440000"
+        }
+    }
+},{
+    "url": "/service/province/property/warning",
+    "m": "post",
+    "req": {
+        "data": {
+            "isRegionCode": "true",
+            "regionCode": "440000",
+            "timeSlot": "WEEK",
+            "size": 10
+        }
+    }
+},{
+    "url": "/service/province/property/warning/window",
+    "m": "post",
+    "req": {
+        "data": {
+            "regionCode": "440000",
+            "timeSlot": "WEEK",
+            "size": 10
+        }
+    }
+},{
+    "url": "/service/province/property/warehouse",
+    "m": "post",
+    "req": {
+        "data": {
+            "isRegionCode": "true",
+            "regionCode": "440000",
+            "size": 10
+        }
+    }
+},{
+    "url": "/service/province/property/inout",
+    "m": "post",
+    "req": {
+        "data": {
+            "isRegionCode": "true",
+            "regionCode": "440000",
+            "timeSlot": "WEEK"
+        }
+    }
+},{
+    "url": "/service/province/property/inout/window",
+    "m": "post",
+    "req": {
+        "data": {
+            "regionCode": "440000",
+            "timeSlot": "WEEK"
+        }
+    }
+},{
+    "url": "/service/province/property/center",
+    "m": "post",
+    "req": {
+        "data": {
+            "isRegionCode": "true",
+            "regionCode": "440000",
+            "size": 10
+        }
+    }
+},{
+    "url": "/service/province/property/type",
+    "m": "post",
+    "req": {
+        "data": {
+            "isRegionCode": "true",
+            "regionCode": "440000",
+            "size": 10
+        }
+    }
+}]
