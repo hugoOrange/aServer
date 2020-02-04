@@ -96,11 +96,32 @@ $(document).ready(function () {
                 url: "./json/" + reqName + ".json",
                 dataType: "json",
                 success: function (data) {
-                    console.log(data);  
+                    console.log(data);
+                    Promise.all(data.forEach(requestAndAppend)).then(function (rest) {
+                        console.dir(rest);
+                    }).catch(function (e) {
+                        console.log(e)
+                    });
                 }
             })
         });
         $("#app").append(btn);
+    }
+    function requestAndAppend(reqParam) {
+        return new Promise(function (resolve, reject) {
+            $.ajax({
+                type: reqParam.m.toLowerCase(),
+                url: reqParam.url,
+                body: reqParam.req,
+                success: function (data) {
+                    reqParam.res = data;
+                    resolve(reqParam);
+                },
+                error: function () {
+                    resolve(reqParam);
+                }
+            });
+        });
     }
 
     requestFile.forEach(function (rFile) {
