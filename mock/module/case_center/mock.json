@@ -426,6 +426,17 @@
         }]
     },
     {
+        "url": "/service/province/home/center/count/window",
+        "m": "post",
+        "req": {
+            "data": {
+                "isRegionCode": "true",
+                "regionCode": "440000"
+            }
+        },
+        "res": {"id":0,"sid":"ba8cd60f-2b07-4c68-a44c-d626541a38f0","state":{"code":200,"msg":"操作成功"},"data":[{"regionCode":"440000","regionName":"广东省","progress":[{"stepProgressStatus":"0","num":18,"stepProgressStatusName":"进入办案区"},{"stepProgressStatus":"1","num":19,"stepProgressStatusName":"登记"},{"stepProgressStatus":"1001","num":2,"stepProgressStatusName":"人身检查"},{"stepProgressStatus":"1002","num":3,"stepProgressStatusName":"随身物品"},{"stepProgressStatus":"1003","num":3,"stepProgressStatusName":"信息采集"},{"stepProgressStatus":"1004","num":4,"stepProgressStatusName":"候问"},{"stepProgressStatus":"1005","num":1,"stepProgressStatusName":"审讯"},{"stepProgressStatus":"1006","num":5,"stepProgressStatusName":"分配"},{"stepProgressStatus":"1007","num":15,"stepProgressStatusName":"申请离开"},{"stepProgressStatus":"1009","num":1,"stepProgressStatusName":"临时出区"}]},{"regionCode":"440300","regionName":"深圳市","progress":[{"stepProgressStatus":"0","num":4,"stepProgressStatusName":"进入办案区"},{"stepProgressStatus":"1","num":1,"stepProgressStatusName":"登记"}]}]}
+    },
+    {
         "url": "/service/province/home/center/suspect/in/trends",
         "m": "post",
         "req": [{
@@ -1002,5 +1013,29 @@
                 "regionName": "深圳市"
             }]
         }
+    },
+    {
+        "url": "/service/province/home/center/suspect/in/trends/window",
+        "m": "post",
+        "req": {"data":{"isRegionCode":"true","regionCode":"440000","timeSlot":"WEEK"}},
+        "res": {"id":0,"sid":"ba8cd60f-2b07-4c68-a44c-d626541a38f0","state":{"code":200,"msg":"操作成功"},"data":[{"regionCode":"440300","regionName":"深圳市","lastYearData":[],"currentDate":"2020-02-05 17:48:35","thisYearData":[{"isDeleted":"N","suspectIn":2,"statusDate":"2020-01"}]},{"regionCode":"440000","regionName":"广东省","lastYearData":[],"currentDate":"2020-02-05 17:48:35","thisYearData":[{"isDeleted":"N","suspectIn":156,"statusDate":"2020-01"}]}]}
+    },
+    {
+        "url": "/service/province/home/center/person/info/window",
+        "m": "post",
+        "req": {"data":{"isRegionCode":"true","regionCode":"440000","timeSlot":"WEEK"}},
+        "res": {"id":0,"sid":"ba8cd60f-2b07-4c68-a44c-d626541a38f0","state":{"code":200,"msg":"操作成功"},"data":[{"in":156,"out":0,"regionCode":"440000","regionName":"广东省","temporaryOut":0,"temporaryIn":0,"criminalCase":0,"govCase":0,"involvedCsaeGoods":0,"noneInvolvedCsaeGoods":0},{"in":2,"out":0,"regionCode":"440300","regionName":"深圳市","temporaryOut":0,"temporaryIn":0,"criminalCase":0,"govCase":0,"involvedCsaeGoods":0,"noneInvolvedCsaeGoods":0}]}
+    },
+    {
+        "url": "/service/province/home/person/status/window",
+        "m": "post",
+        "req": {"data":{"isRegionCode":"true","regionCode":"440000","timeSlot":"WEEK"}},
+        "res": {"id":0,"sid":"ba8cd60f-2b07-4c68-a44c-d626541a38f0","state":{"code":200,"msg":"操作成功"},"data":[{"regionCode":"440300","regionName":"深圳市","personInfo":[{"isDeleted":"N","personCaseType":"suspect","totalNum":2}]},{"regionCode":"440000","regionName":"广东省","personInfo":[{"isDeleted":"N","personCaseType":"suspect","totalNum":147},{"isDeleted":"N","personCaseType":"translator","totalNum":1},{"isDeleted":"N","personCaseType":"victim","totalNum":1},{"isDeleted":"N","personCaseType":"witness","totalNum":7}]}]}
+    },
+    {
+        "url": "/service/province/home/center/case/status/window",
+        "m": "post",
+        "req": {"data":{"dicCodeList":["xidu","qiangduoan","dubo","kaisheduchangan","qita","rushidaoqiean","maiyin","xunxinzishi"],"isRegionCode":"true","regionCode":"440000","timeSlot":"YEAR"}},
+        "res": {"id":0,"sid":"ba8cd60f-2b07-4c68-a44c-d626541a38f0","state":{"code":200,"msg":"操作成功"},"data":[{"regionCode":"440000","regionName":"广东省","total":110,"cases":[{"dicCode":"xidu","num":23,"dicName":"吸毒"},{"dicCode":"qiangduoan","num":20,"dicName":"抢夺案"},{"dicCode":"dubo","num":15,"dicName":"赌博"},{"dicCode":"kaisheduchangan","num":12,"dicName":"开设赌场案"},{"dicCode":"qita","num":10,"dicName":"其他"},{"dicCode":"rushidaoqiean","num":5,"dicName":"入室盗窃案"},{"dicCode":"xunxinzishi","num":4,"dicName":"寻衅滋事"},{"dicCode":"maiyin","num":4,"dicName":"卖淫"},{"dicCode":"other","num":17,"dicName":"其他"}]}]}
     }
 ]

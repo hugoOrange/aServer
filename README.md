@@ -5,7 +5,10 @@
 git clone https://github.com/hugoOrange/aServer.git
 cd aServer
 npm install
-npm run serve
+# linux/mac 环境下启动
+npm run lserve
+# windows 环境下启动
+npm run wserve
 ```
 
 ## nginx 配置
