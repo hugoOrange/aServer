@@ -1018,7 +1018,7 @@
         "url": "/service/province/home/center/suspect/in/trends/window",
         "m": "post",
         "req": {"data":{"isRegionCode":"true","regionCode":"440000","timeSlot":"WEEK"}},
-        "res": {"id":0,"sid":"ba8cd60f-2b07-4c68-a44c-d626541a38f0","state":{"code":200,"msg":"操作成功"},"data":[{"regionCode":"440300","regionName":"深圳市","lastYearData":[],"currentDate":"2020-02-05 17:48:35","thisYearData":[{"isDeleted":"N","suspectIn":2,"statusDate":"2020-01"}]},{"regionCode":"440000","regionName":"广东省","lastYearData":[],"currentDate":"2020-02-05 17:48:35","thisYearData":[{"isDeleted":"N","suspectIn":156,"statusDate":"2020-01"}]}]}
+        "res": {"id":0,"sid":"ba8cd60f-2b07-4c68-a44c-d626541a38f0","state":{"code":200,"msg":"操作成功"},"data":[{"regionCode":"440300","regionName":"深圳市","lastYearData":[],"currentDate":"2020-02-05 17:48:35","thisYearData":[{"isDeleted":"N","suspectIn":2,"statusDate":"2020-01"}]},{"regionCode":"440000","regionName":"广东省","lastYearData":[],"currentDate":"2020-02-05 17:48:35","thisYearData":[{"isDeleted":"N","suspectIn":156,"statusDate":"2020-02"}]}]}
     },
     {
         "url": "/service/province/home/center/person/info/window",
@@ -1035,7 +1035,19 @@
     {
         "url": "/service/province/home/center/case/status/window",
         "m": "post",
-        "req": {"data":{"dicCodeList":["xidu","qiangduoan","dubo","kaisheduchangan","qita","rushidaoqiean","maiyin","xunxinzishi"],"isRegionCode":"true","regionCode":"440000","timeSlot":"YEAR"}},
+        "req": {"data":{"dicCodeList":["other","xunxinzishi","qiangjiean","rushidaoqiean","xidu","kaisheduchangan","qiangduoan","dubo"],"isRegionCode":"true","regionCode":"440000","timeSlot":"WEEK"}},
         "res": {"id":0,"sid":"ba8cd60f-2b07-4c68-a44c-d626541a38f0","state":{"code":200,"msg":"操作成功"},"data":[{"regionCode":"440000","regionName":"广东省","total":110,"cases":[{"dicCode":"xidu","num":23,"dicName":"吸毒"},{"dicCode":"qiangduoan","num":20,"dicName":"抢夺案"},{"dicCode":"dubo","num":15,"dicName":"赌博"},{"dicCode":"kaisheduchangan","num":12,"dicName":"开设赌场案"},{"dicCode":"qita","num":10,"dicName":"其他"},{"dicCode":"rushidaoqiean","num":5,"dicName":"入室盗窃案"},{"dicCode":"xunxinzishi","num":4,"dicName":"寻衅滋事"},{"dicCode":"maiyin","num":4,"dicName":"卖淫"},{"dicCode":"other","num":17,"dicName":"其他"}]}]}
+    },
+    {
+        "url": "/service/province/home/center/goods/Info/window",
+        "m": "post",
+        "req": {"data":{"isRegionCode":"true","regionCode":"440000","timeSlot":"WEEK"}},
+        "res": {"id":0,"sid":"ba8cd60f-2b07-4c68-a44c-d626541a38f0","state":{"code":200,"msg":"操作成功"},"data":[{"in":0,"out":0,"regionCode":"440000","regionName":"广东省","temporaryOut":0,"temporaryIn":0,"criminalCase":0,"govCase":0,"involvedCsaeGoods":8,"noneInvolvedCsaeGoods":62}]}
+    },
+    {
+        "url": "/service/province/home/center/goods/status/window",
+        "m": "post",
+        "req": {"data":{"isRegionCode":"true","regionCode":"440000","timeSlot":"WEEK"}},
+        "res": {"id":0,"sid":"ba8cd60f-2b07-4c68-a44c-d626541a38f0","state":{"code":200,"msg":"操作成功"},"data":[{"noBack":9,"noTake":44,"entrustTake":6,"ownTake":6,"delayTake":5,"total":70,"regionCode":"440000","regionName":"广东省"}]}
     }
 ]

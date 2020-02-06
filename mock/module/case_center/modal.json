@@ -1,0 +1,8 @@
+[{
+    "url": "/service/province/home/center/person/info/inOut/window",
+    "m": "post",
+    "req": [
+        {"data":{"isRegionCode":"true","regionCode":"440000","timeSlot":"YEAR","personStatus":"in","personType":""},"page":{"page":1,"size":10}},
+        {}
+    ]
+}]

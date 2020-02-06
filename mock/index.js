@@ -6,6 +6,8 @@ const MOCK_PATH = [
     './module/case_center/mock.json',
 
     // 在下面这里添加模拟数据的文件路径
+    './module/case_center/modal.json',
+
 ];
 
 
