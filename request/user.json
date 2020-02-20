@@ -10,502 +10,466 @@
     "orgInfo": [{
 
     }],
-    "menuList": [
+    "menuList": [{
+            "id": 30476,
+            "name": "平台门户",
+            "code": "entry",
+            "funcCode": "entry"
+        },
+
         {
-            "id": "22389",
+            "id": 32237,
+            "name": "智能预警",
             "code": "intelligence_warn",
             "funcCode": "intelligence_warn",
-            "name": "智能预警",
-            "openMode": "N",
-            "orderId": 79893,
-            "path": "/intelligence_warn",
-            "children": [
-                {
-                    "id": "43136",
+            "children": [{
+                    "id": 23474,
                     "name": "警情预警",
                     "code": "police_warn",
-                    "funcCode": "police_warn",
-                    "openMode": "Y",
-                    "orderId": 5354,
-                    "path": "/intelligence_warn/police_warn"
+                    "funcCode": "police_warn"
                 },
                 {
-                    "id": "58912",
+                    "id": 69934,
                     "name": "案件预警",
                     "code": "case_warn",
-                    "funcCode": "case_warn",
-                    "openMode": "Y",
-                    "orderId": 69371,
-                    "path": "/intelligence_warn/case_warn"
+                    "funcCode": "case_warn"
                 },
                 {
-                    "id": "71671",
+                    "id": 95430,
                     "name": "人员预警",
                     "code": "person_warn",
-                    "funcCode": "person_warn",
-                    "openMode": "Y",
-                    "orderId": 36405,
-                    "path": "/intelligence_warn/person_warn"
+                    "funcCode": "person_warn"
                 },
                 {
-                    "id": "49624",
+                    "id": 33613,
+                    "name": "财物预警",
+                    "code": "property_warn",
+                    "funcCode": "property_warn"
+                },
+                {
+                    "id": 75614,
+                    "name": "案卷预警",
+                    "code": "archive_warn",
+                    "funcCode": "archive_warn"
+                },
+                {
+                    "id": 46909,
                     "name": "场所预警",
                     "code": "place_warn",
                     "funcCode": "place_warn",
-                    "openMode": "Y",
-                    "orderId": 48724,
-                    "path": "/intelligence_warn/place_warn",
-                    "children": [
-                        {
-                            "id": "32275",
-                            "name": "四个一律监督",
-                            "code": "special_warn",
-                            "funcCode": "special_warn",
-                            "openMode": "N",
-                            "orderId": 13855,
-                            "path": "/intelligence_warn/place_warn/special_warn"
+                    "children": [{
+                            "id": 81156,
+                            "name": "告警监督管理",
+                            "code": "place_warn_handle",
+                            "funcCode": "place_warn_handle"
                         },
                         {
-                            "id": "82635",
-                            "name": "场所告警管理",
-                            "code": "place_warn_handle",
-                            "funcCode": "place_warn_handle",
-                            "openMode": "N",
-                            "orderId": 74965,
-                            "path": "/intelligence_warn/place_warn/place_warn_handle"
+                            "id": 99904,
+                            "name": "四个一律",
+                            "code": "special_warn",
+                            "funcCode": "special_warn"
                         }
                     ]
                 },
                 {
-                    "id": "73286",
-                    "name": "财物预警",
-                    "code": "property_warn",
-                    "funcCode": "property_warn",
-                    "openMode": "N",
-                    "orderId": 15341,
-                    "path": "/intelligence_warn/property_warn"
-                },
-                {
-                    "id": "53332",
-                    "name": "案卷预警",
-                    "code": "archive_warn",
-                    "funcCode": "archive_warn",
-                    "openMode": "N",
-                    "orderId": 40990,
-                    "path": "/intelligence_warn/archive_warn"
-                },
-                {
-                    "id": "37419",
-                    "name": "督办闭环",
-                    "code": "urge_warn",
-                    "funcCode": "urge_warn",
-                    "openMode": "N",
-                    "orderId": 451,
-                    "path": "/intelligence_warn/urge_warn",
-                    "children": [
-                        {
-                            "id": "6926",
-                            "name": "监督督办",
-                            "code": "urge_do",
-                            "funcCode": "urge_do",
-                            "openMode": "N",
-                            "orderId": 9425,
-                            "path": "/intelligence_warn/urge_warn/urge_do"
+                    "id": 12265,
+                    "name": "监督管理",
+                    "code": "warn_conf",
+                    "funcCode": "warn_conf",
+                    "children": [{
+                            "id": 99147,
+                            "name": "预警级别管理",
+                            "code": "warn_level_conf",
+                            "funcCode": "warn_level_conf"
                         },
                         {
-                            "id": "85090",
-                            "name": "网上提醒",
-                            "code": "network_remind",
-                            "funcCode": "network_remind",
-                            "openMode": "N",
-                            "orderId": 74263,
-                            "path": "/intelligence_warn/urge_warn/network_remind"
+                            "id": 14677,
+                            "name": "监督对象管理",
+                            "code": "warn_object_conf",
+                            "funcCode": "warn_object_conf"
                         },
                         {
-                            "id": "91699",
-                            "name": "网上示警",
-                            "code": "network_warning",
-                            "funcCode": "network_warning",
-                            "openMode": "N",
-                            "orderId": 35550,
-                            "path": "/intelligence_warn/urge_warn/network_warning"
+                            "id": 1307,
+                            "name": "监督环节管理",
+                            "code": "warn_section_conf",
+                            "funcCode": "warn_section_conf"
                         },
                         {
-                            "id": "44453",
-                            "name": "反馈核查",
-                            "code": "feedback_confirm",
-                            "funcCode": "feedback_confirm",
-                            "openMode": "N",
-                            "orderId": 33471,
-                            "path": "/intelligence_warn/urge_warn/feedback_confirm"
+                            "id": 2410,
+                            "name": "监督点管理",
+                            "code": "warn_node_conf",
+                            "funcCode": "warn_node_conf"
+                        },
+                        {
+                            "id": 72435,
+                            "name": "监督引擎",
+                            "code": "warn_rule_conf",
+                            "funcCode": "warn_rule_conf"
                         }
                     ]
                 }
             ]
         },
+
         {
-            "id": "32843",
+            "id": 11175,
             "name": "研判分析",
             "code": "deep_analysis",
             "funcCode": "deep_analysis",
-            "openMode": "N",
-            "orderId": 13655,
-            "path": "/deep_analysis",
-            "children": [
-                {
-                    "id": "54753",
+            "children": [{
+                    "id": 21341,
                     "name": "数据驾驶舱",
                     "code": "data_analysis",
                     "funcCode": "data_analysis",
-                    "openMode": "N",
-                    "orderId": 28280,
-                    "path": "/deep_analysis/data_analysis",
-                    "children": [
-                        {
-                            "id": "62885",
-                            "name": "执法要素综合分析",
-                            "code": "case_analysis",
-                            "funcCode": "case_analysis",
-                            "openMode": "N",
-                            "orderId": 17120,
-                            "path": "/deep_analysis/data_analysis/case_analysis"
+                    "children": [{
+                            "id": 41590,
+                            "name": "数据总览",
+                            "code": "data_overview",
+                            "funcCode": "data_overview"
                         },
                         {
-                            "id": "21342",
-                            "name": "风险预警综合分析",
-                            "code": "risk_analysis",
-                            "funcCode": "risk_analysis",
-                            "openMode": "N",
-                            "orderId": 89520,
-                            "path": "/deep_analysis/data_analysis/risk_analysis"
+                            "id": 34081,
+                            "name": "执法实时数据",
+                            "code": "realtime_case_analysis",
+                            "funcCode": "realtime_case_analysis"
                         },
                         {
-                            "id": "40421",
-                            "name": "可视化分析",
-                            "code": "visual_analysis",
-                            "funcCode": "visual_analysis",
-                            "openMode": "N",
-                            "orderId": 57184,
-                            "path": "/deep_analysis/data_analysis/visual_analysis"
+                            "id": 39494,
+                            "name": "执法专项整治",
+                            "code": "special_case_analysis",
+                            "funcCode": "special_case_analysis"
+                        },
+                        {
+                            "id": 20849,
+                            "name": "执法音视频",
+                            "code": "video_case_analysis",
+                            "funcCode": "video_case_analysis"
+                        },
+                        {
+                            "id": 98913,
+                            "name": "涉案财物",
+                            "code": "property_analysis",
+                            "funcCode": "property_analysis"
+                        },
+                        {
+                            "id": 30102,
+                            "name": "实时音视频",
+                            "code": "realtime_video_analysis",
+                            "funcCode": "realtime_video_analysis"
+                        },
+                        {
+                            "id": 59339,
+                            "name": "办案区场所",
+                            "code": "case_place_analysis",
+                            "funcCode": "case_place_analysis"
                         }
                     ]
                 },
                 {
-                    "id": "79875",
-                    "name": "专题分析",
-                    "code": "subject_analysis",
-                    "funcCode": "subject_analysis",
-                    "openMode": "N",
-                    "orderId": 85902,
-                    "path": "/deep_analysis/subject_analysis",
-                    "children": [
+                    "id": 45138,
+                    "name": "六要素分析",
+                    "code": "six_analysis",
+                    "funcCode": "six_analysis",
+                    "children": [{
+                            "id": 20869,
+                            "name": "警情要素分析",
+                            "code": "condition_analysis",
+                            "funcCode": "condition_analysis"
+                        },
                         {
-                            "id": "29200",
-                            "name": "场所分析",
+                            "id": 55032,
+                            "name": "案件要素分析",
+                            "code": "case_analysis",
+                            "funcCode": "case_analysis"
+                        },
+                        {
+                            "id": 92540,
+                            "name": "人员要素分析",
+                            "code": "person_analysis",
+                            "funcCode": "person_analysis"
+                        },
+                        {
+                            "id": 26501,
+                            "name": "物品要素分析",
+                            "code": "goods_analysis",
+                            "funcCode": "goods_analysis"
+                        },
+                        {
+                            "id": 52921,
+                            "name": "案卷要素分析",
+                            "code": "archive_analysis",
+                            "funcCode": "archive_analysis"
+                        },
+                        {
+                            "id": 5606,
+                            "name": "场所要素分析",
                             "code": "place_analysis",
                             "funcCode": "place_analysis",
-                            "openMode": "N",
-                            "orderId": 5891,
-                            "path": "/deep_analysis/subject_analysis/place_analysis"
+                            "children": [{
+                                    "id": 17271,
+                                    "name": "办案场所使用分析",
+                                    "code": "usage_analysis",
+                                    "funcCode": "usage_analysis"
+                                },
+                                {
+                                    "id": 24700,
+                                    "name": "涉案人员分析",
+                                    "code": "suspect_analysis",
+                                    "funcCode": "suspect_analysis"
+                                },
+                                {
+                                    "id": 42923,
+                                    "name": "执法主体分析",
+                                    "code": "police_analysis",
+                                    "funcCode": "police_analysis"
+                                },
+                                {
+                                    "id": 58365,
+                                    "name": "告警情况分析",
+                                    "code": "warn_analysis",
+                                    "funcCode": "warn_analysis"
+                                },
+                                {
+                                    "id": 8942,
+                                    "name": "重点人员分析",
+                                    "code": "emphasis_person_analysis",
+                                    "funcCode": "emphasis_person_analysis"
+                                }
+                            ]
                         },
                         {
-                            "id": "69630",
-                            "name": "警情分析",
-                            "code": "police_ananlysis",
-                            "funcCode": "police_ananlysis",
-                            "openMode": "N",
-                            "orderId": 17891,
-                            "path": "/deep_analysis/subject_analysis/police_ananlysis"
+                            "id": 55518,
+                            "name": "专题问题分析",
+                            "code": "subject_analysis",
+                            "funcCode": "subject_analysis",
+                            "children": [{
+                                    "id": 92980,
+                                    "name": "久拖不裁案件分析",
+                                    "code": "long_time_analysis",
+                                    "funcCode": "long_time_analysis"
+                                },
+                                {
+                                    "id": 17418,
+                                    "name": "人员处罚分析",
+                                    "code": "person_punish_analysis",
+                                    "funcCode": "person_punish_analysis"
+                                },
+                                {
+                                    "id": 77475,
+                                    "name": "多次取保专题分析",
+                                    "code": "multi_bail_analysis",
+                                    "funcCode": "multi_bail_analysis"
+                                },
+                                {
+                                    "id": 61140,
+                                    "name": "取保未起诉专题分析",
+                                    "code": "bail_no_complaint_analysis",
+                                    "funcCode": "bail_no_complaint_analysis"
+                                },
+                                {
+                                    "id": 80258,
+                                    "name": "用户异常登录分析",
+                                    "code": "abnormal_login_analysis",
+                                    "funcCode": "abnormal_login_analysis"
+                                },
+                                {
+                                    "id": 53817,
+                                    "name": "监管数据碰撞",
+                                    "code": "supversion_analysis",
+                                    "funcCode": "supversion_analysis"
+                                },
+                                {
+                                    "id": 9676,
+                                    "name": "重复录入嫌疑人分析",
+                                    "code": "repeat_suspect_analysis",
+                                    "funcCode": "repeat_suspect_analysis"
+                                },
+                                {
+                                    "id": 86808,
+                                    "name": "重点案件分析",
+                                    "code": "important_case_analysis",
+                                    "funcCode": "important_case_analysis"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 66049,
+                            "name": "执法质量指数",
+                            "code": "law_analysis",
+                            "funcCode": "law_analysis"
                         }
                     ]
-                },
-                {
-                    "id": "64257",
-                    "name": "执法质量指数",
-                    "code": "law_analysis",
-                    "funcCode": "law_analysis",
-                    "openMode": "N",
-                    "orderId": 53643,
-                    "path": "/deep_analysislaw_analysis/"
                 }
             ]
         },
+
         {
-            "id": "76188",
+            "id": 49187,
             "name": "办案中心管理",
             "code": "case_center",
             "funcCode": "case_center",
-            "openMode": "N",
-            "orderId": 27725,
-            "path": "/case_center",
-            "children": [
-                {
-                    "id": "38873",
+            "children": [{
+                    "id": 67633,
                     "name": "场所全景概览",
                     "code": "case_center_overview",
-                    "funcCode": "case_center_overview",
-                    "openMode": "N",
-                    "orderId": 83362,
-                    "path": "/case_center"
+                    "funcCode": "case_center_overview"
                 },
                 {
-                    "id": "64247",
+                    "id": 7685,
                     "name": "场所报备管理",
                     "code": "case_center_management",
-                    "funcCode": "case_center_management",
-                    "openMode": "N",
-                    "orderId": 16432,
-                    "path": "/case_center",
-                    "children": [
-                        {
-                            "id": "22788",
-                            "name": "场所建设申报",
-                            "code": "case_center_apply",
-                            "funcCode": "case_center_apply",
-                            "openMode": "N",
-                            "orderId": 6250,
-                            "path": "/case_center/case_center_apply"
-                        },
-                        {
-                            "id": "64735",
-                            "name": "系统接入申请",
-                            "code": "case_center_access",
-                            "funcCode": "case_center_access",
-                            "openMode": "N",
-                            "orderId": 18138,
-                            "path": "/case_center/case_center_access"
-                        }
-                    ]
-                },
-                {
-                    "id": "22728",
-                    "name": "统一调配管理",
-                    "code": "case_center_schedule",
-                    "funcCode": "case_center_schedule",
-                    "openMode": "N",
-                    "orderId": 44854,
-                    "path": "/case_center"
-                },
-                {
-                    "id": "45628",
-                    "name": "集中下载刻录",
-                    "code": "case_center_burn",
-                    "funcCode": "case_center_burn",
-                    "openMode": "N",
-                    "orderId": 64786,
-                    "path": "/case_center"
+                    "funcCode": "case_center_management"
                 }
             ]
         },
+
         {
-            "id": "30780",
-            "name": "物管全景概览",
+            "id": 14119,
+            "name": "案管中心管理",
             "code": "property_center",
             "funcCode": "property_center",
-            "openMode": "N",
-            "orderId": 74375,
-            "path": "/property_center"
+            "children": [{
+                "id": 45004,
+                "name": "案卷全景概览",
+                "code": "property_center_overivew",
+                "funcCode": "property_center_overivew"
+            }]
         },
+
         {
-            "id": "51384",
-            "name": "案卷全景概览",
-            "code": "archive_warn",
-            "funcCode": "archive_warn",
-            "openMode": "N",
-            "orderId": 37396,
-            "path": "/archive_warn"
+            "id": 82,
+            "name": "物管中心管理",
+            "code": "archive_center",
+            "funcCode": "archive_center",
+            "children": [{
+                "id": 73553,
+                "name": "物管全景概览",
+                "code": "archive_center_overview",
+                "funcCode": "archive_center_overview"
+            }]
         },
+
         {
-            "id": "48539",
+            "id": 24913,
             "name": "视频监督",
             "code": "video_monitor",
             "funcCode": "video_monitor",
-            "openMode": "N",
-            "orderId": 2274,
-            "path": "/video_monitor",
-            "children": [
-                {
-                    "id": "50350",
+            "children": [{
+                    "id": 99415,
                     "name": "警情视频监督",
                     "code": "video_monitor_police",
-                    "funcCode": "video_monitor_police",
-                    "openMode": "N",
-                    "orderId": 42302,
-                    "path": "/video_monitor/video_monitor_police"
+                    "funcCode": "video_monitor_police"
                 },
                 {
-                    "id": "94529",
+                    "id": 1277,
                     "name": "案件视频监督",
                     "code": "video_monitor_case",
-                    "funcCode": "video_monitor_case",
-                    "openMode": "N",
-                    "orderId": 34710,
-                    "path": "/video_monitor/video_monitor_case"
+                    "funcCode": "video_monitor_case"
                 },
                 {
-                    "id": "72281",
+                    "id": 39562,
                     "name": "场所视频监督",
                     "code": "video_monitor_place",
                     "funcCode": "video_monitor_place",
-                    "openMode": "N",
-                    "orderId": 54189,
-                    "path": "/video_monitor/video_monitor_place",
-                    "children": [
-                        {
-                            "id": "76775",
-                            "name": "告警监督管理",
-                            "code": "warn_monitor",
-                            "funcCode": "warn_monitor",
-                            "openMode": "N",
-                            "orderId": 1989,
-                            "path": "/video_monitor/video_monitor_place/warn_monitor"
-                        },
-                        {
-                            "id": "33776",
+                    "children": [{
+                            "id": 7096,
                             "name": "实时视频监督管理",
                             "code": "real_time_video",
-                            "funcCode": "real_time_video",
-                            "openMode": "N",
-                            "orderId": 59062,
-                            "path": "/video_monitor/video_monitor_place/real_time_video"
+                            "funcCode": "real_time_video"
                         },
                         {
-                            "id": "40776",
-                            "name": "人员轨迹视频管理",
+                            "id": 77692,
+                            "name": "人员轨迹视频监督管理",
                             "code": "case_step_video",
-                            "funcCode": "case_step_video",
-                            "openMode": "N",
-                            "orderId": 34208,
-                            "path": "/video_monitor/video_monitor_place/case_step_video"
+                            "funcCode": "case_step_video"
                         },
                         {
-                            "id": "51228",
+                            "id": 27036,
                             "name": "实时审讯监督管理",
                             "code": "real_interrogate_video",
-                            "funcCode": "real_interrogate_video",
-                            "openMode": "N",
-                            "orderId": 71659,
-                            "path": "/video_monitor/video_monitor_place/real_interrogate_video"
+                            "funcCode": "real_interrogate_video"
                         },
                         {
-                            "id": "55579",
+                            "id": 61908,
                             "name": "历史审讯监督管理",
                             "code": "record_interrogate_video",
-                            "funcCode": "record_interrogate_video",
-                            "openMode": "N",
-                            "orderId": 49047,
-                            "path": "/video_monitor/video_monitor_place/record_interrogate_video"
+                            "funcCode": "record_interrogate_video"
                         },
                         {
-                            "id": "76978",
-                            "name": "远程指挥",
-                            "code": "remote_command",
-                            "funcCode": "remote_command",
-                            "openMode": "N",
-                            "orderId": 49448,
-                            "path": "/video_monitor/video_monitor_place/remote_command"
+                            "id": 28850,
+                            "name": "监督巡查记录",
+                            "code": "supervision_record",
+                            "funcCode": "supervision_record"
                         }
                     ]
                 }
             ]
         },
+
         {
-            "id": "83212",
-            "name": "监督考评",
-            "code": "supervision",
-            "funcCode": "supervision",
-            "openMode": "N",
-            "orderId": 78157,
-            "path": "/supervision",
-            "children": [
-                {
-                    "id": "35695",
-                    "name": "个案监督",
-                    "code": "supervision_monitor",
-                    "funcCode": "supervision_monitor",
-                    "openMode": "N",
-                    "orderId": 13593,
-                    "path": "/supervision/supervision_monitor"
-                },
-                {
-                    "id": "9873",
-                    "name": "执法考评",
-                    "code": "supervision_evaluation",
-                    "funcCode": "supervision_evaluation",
-                    "openMode": "N",
-                    "orderId": 70356,
-                    "path": "/supervision/supervision_evaluation"
-                }
-            ]
-        },
-        {
-            "id": "63588",
+            "id": 96570,
             "name": "执法档案",
             "code": "case_archive",
             "funcCode": "case_archive",
-            "openMode": "N",
-            "orderId": 72975,
-            "path": "/case_archive",
-            "children": [
-                {
-                    "id": "49815",
-                    "name": "个人档案",
-                    "code": "archive_person",
-                    "funcCode": "archive_person",
-                    "openMode": "N",
-                    "orderId": 36722,
-                    "path": "/case_archive/archive_person"
+            "children": [{
+                    "id": 36086,
+                    "name": "案件全流程回溯",
+                    "code": "case_review",
+                    "funcCode": "case_review"
                 },
                 {
-                    "id": "17023",
+                    "id": 76112,
+                    "name": "案件档案",
+                    "code": "electronic_case_archive",
+                    "funcCode": "electronic_case_archive"
+                },
+                {
+                    "id": 51977,
+                    "name": "个人档案",
+                    "code": "electronic_person_archive",
+                    "funcCode": "electronic_person_archive"
+                },
+                {
+                    "id": 14104,
                     "name": "单位档案",
-                    "code": "archive_org",
-                    "funcCode": "archive_org",
-                    "openMode": "N",
-                    "orderId": 1045,
-                    "path": "/case_archive/archive_org"
+                    "code": "electronic_org_archive",
+                    "funcCode": "electronic_org_archive"
                 }
             ]
         },
+
         {
-            "id": "52838",
+            "id": 74004,
             "name": "运维管理",
             "code": "maintaince",
             "funcCode": "maintaince",
-            "openMode": "N",
-            "orderId": 51096,
-            "path": "/maintaince",
-            "children": [
-                {
-                    "id": "91235",
+            "children": [{
+                    "id": 10206,
                     "name": "系统运维",
-                    "code": "maintaince_system",
-                    "funcCode": "maintaince_system",
-                    "openMode": "N",
-                    "orderId": 82056,
-                    "path": "/maintaince/maintaince_system"
+                    "code": "system_mgr",
+                    "funcCode": "system_mgr",
+                    "children": [{
+                        "id": 28325,
+                        "name": "运维状态监控管理",
+                        "code": "status_monitor",
+                        "funcCode": "status_monitor"
+                    }]
                 },
                 {
-                    "id": "66850",
-                    "name": "设备运维",
-                    "code": "maintaince_device",
-                    "funcCode": "maintaince_device",
-                    "openMode": "N",
-                    "orderId": 3923,
-                    "path": "/maintaince/maintaince_device"
-                },
-                {
-                    "id": "5694",
+                    "id": 39615,
                     "name": "资源调度情况",
-                    "code": "maintaince_resouce",
-                    "funcCode": "maintaince_resouce",
-                    "openMode": "N",
-                    "orderId": 91986,
-                    "path": "/maintaince/maintaince_resouce"
+                    "code": "resource_mgr",
+                    "funcCode": "resource_mgr",
+                    "children": [{
+                        "id": 5430,
+                        "name": "资源调度信息统计",
+                        "code": "resource_usage",
+                        "funcCode": "resource_usage"
+                    }]
                 }
             ]
         }
-    ],
+    ]
     "permissions": [
         "intelligence_warn",
         "police_warn",

@@ -1,5 +1,5 @@
 const ADMIN_USER = 'admin';
-const ADMIN_PASSWORD = 'admin';
+const ADMIN_PASSWORD = '202CB962AC59075B964B07152D234B70';
 const { TOKEN_TIMEOUT } = require("../config.json");
 const userInfoData = require("./user.json");
 const dictionaryData = require("../mock/module/dictionary/base.json");
@@ -40,7 +40,7 @@ function diff(a, b) {
 
 module.exports = function (app) {
     // login
-    app.post('/service/login', function (req, res) {
+    app.post('/sundun-edas/oauth/token', function (req, res) {
         var reqData = req.body && req.body.data || {};
         var user = reqData.user,
             pass = reqData.password;
@@ -48,13 +48,13 @@ module.exports = function (app) {
             console.log(`Info User: ${user} login in ${new Date().toISOString()}\
                 - timeout: ${TOKEN_TIMEOUT}`);
             res.send(new RequestTemplate({
-                token: getToken(user, pass, TOKEN_TIMEOUT)
+                access_token: getToken(user, pass, TOKEN_TIMEOUT)
             }));
         } else {
             res.send(new RequestTemplate({}, 5000, '输入的帐号或密码错误'));
         }
     });
-    app.get('/service/user/base', function (req, res) {
+    app.get('/sundun-edas/oauth/user/base', function (req, res) {
         var recvToken = req.get('token');
         if (isTokenValid(recvToken)) {
             var userInfo = getUserByToken(recvToken);
