@@ -44,33 +44,40 @@ module.exports = function (app) {
         var reqData = req.body && req.body.data || {};
         var user = reqData.user,
             pass = reqData.password;
-        if (validUser(user, pass)) {
-            console.log(`Info User: ${user} login in ${new Date().toISOString()}\
-                - timeout: ${TOKEN_TIMEOUT}`);
-            res.send(new RequestTemplate({
-                access_token: getToken(user, pass, TOKEN_TIMEOUT)
-            }));
-        } else {
-            res.send(new RequestTemplate({}, 5000, '输入的帐号或密码错误'));
-        }
+
+        res.send(new RequestTemplate({
+            access_token: getToken(user, pass, TOKEN_TIMEOUT)
+        }));
+
+        // if (validUser(user, pass)) {
+        //     console.log(`Info User: ${user} login in ${new Date().toISOString()}\
+        //         - timeout: ${TOKEN_TIMEOUT}`);
+        //     res.send(new RequestTemplate({
+        //         access_token: getToken(user, pass, TOKEN_TIMEOUT)
+        //     }));
+        // } else {
+        //     res.send(new RequestTemplate({}, 5000, '输入的帐号或密码错误'));
+        // }
     });
     app.get('/sundun-edas/oauth/user/base', function (req, res) {
-        var recvToken = req.get('token');
-        if (isTokenValid(recvToken)) {
-            var userInfo = getUserByToken(recvToken);
-            if (!_.isUndefined(userInfo)) {
-                res.send(new RequestTemplate(userInfoData));
-            } else {
-                res.send(new RequestTemplate({}, 5000, '找不到登录用户'));
-            }
-        } else {
-            res.status(401).send(new RequestTemplate({}, 4000, '登录过期'));
-        }
+        res.send(new RequestTemplate(userInfoData));
+
+        // var recvToken = req.get('Authorization');
+        // if (isTokenValid(recvToken)) {
+        //     var userInfo = getUserByToken(recvToken);
+        //     if (!_.isUndefined(userInfo)) {
+        //         res.send(new RequestTemplate(userInfoData));
+        //     } else {
+        //         res.send(new RequestTemplate({}, 5000, '找不到登录用户'));
+        //     }
+        // } else {
+        //     res.status(401).send(new RequestTemplate({}, 4000, '登录过期'));
+        // }
     });
 
     // Test
     app.post('/service/center/rank', function (req, res) {
-        var recvToken = req.get('token');
+        var recvToken = req.get('Authorization');
         if (isTokenValid(recvToken)) {
             res.send(new RequestTemplate({
                 data: {
@@ -84,7 +91,7 @@ module.exports = function (app) {
     });
 
     app.post('/service/province/config/dic/list', function (req, res) {
-        var recvToken = req.get('token');
+        var recvToken = req.get('Authorization');
         var reqData = req.body && req.body || {};
         if (isTokenValid(recvToken)) {
             var reqDic = reqData.data && reqData.data.typeCode || "";
@@ -101,7 +108,7 @@ module.exports = function (app) {
         }
     });
     app.post('/service/province/config/dic/type', function (req, res) {
-        var recvToken = req.get('token');
+        var recvToken = req.get('Authorization');
         var reqData = req.body && req.body || {};
         if (isTokenValid(recvToken)) {
             var reqDicList = reqData.data && reqData.data.typeList || [];
@@ -121,7 +128,7 @@ module.exports = function (app) {
 
     mock.forEach(function (m) {
         app[m.m](m.url, function (req, res) {
-            var recvToken = req.get('token');
+            var recvToken = req.get('Authorization');
             var reqData = req.body && req.body || {};
             var responseData = new RequestTemplate({}, 5000, '参数错误');
             if (isTokenValid(recvToken)) {

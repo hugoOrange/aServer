@@ -2,15 +2,27 @@
     "user": "admin",
     "password": "admin",
     "userInfo": {
-        "id": "1234",
-        "idCard": "513436200001209664",
-        "loginId": "998998",
-        "name": "张三"
+        "loginId": "160280",
+        "orgName": "日照市公安局法制支队",
+        "idCard": "370624198110079000",
+        "sex": "1",
+        "name": "刘政",
+        "id": "9686258bf93a45549c99a45bd765e486",
+        "orgId": "3f1d403ea49c4a81a69bd5ef3df85af1",
+        "email": "3253564@qq.com"
     },
     "orgInfo": [{
-
+        "code": "371100120000",
+        "name": "日照市公安局法制支队",
+        "id": "3f1d403ea49c4a81a69bd5ef3df85af1"
     }],
-    "menuList": [{
+    "roleList": [{
+        "code": "100005",
+        "name": "市局法制领导",
+        "id": "8b20ee85b1df4ade9f6f75324f69e61d"
+    }],
+    "menuList": [
+        {
             "id": 30476,
             "name": "平台门户",
             "code": "entry",
@@ -469,7 +481,7 @@
                 }
             ]
         }
-    ]
+    ],
     "permissions": [
         "intelligence_warn",
         "police_warn",
