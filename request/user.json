@@ -34,7 +34,8 @@
             "name": "智能预警",
             "code": "intelligence_warn",
             "funcCode": "intelligence_warn",
-            "children": [{
+            "children": [
+                {
                     "id": 23474,
                     "name": "警情预警",
                     "code": "police_warn",
@@ -128,7 +129,8 @@
             "name": "研判分析",
             "code": "deep_analysis",
             "funcCode": "deep_analysis",
-            "children": [{
+            "children": [
+                {
                     "id": 21341,
                     "name": "数据驾驶舱",
                     "code": "data_analysis",
